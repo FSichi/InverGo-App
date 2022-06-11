@@ -1,0 +1,321 @@
+{
+	"app.name": "InverGo",
+
+	"navbar.contact": "Contacts",
+
+	"navbar.contact.add": "Add Contact / Investor",
+	"navbar.contact.add.desc": "Easily and intuitively add a new person to your Contacts list",
+
+	"navbar.contact.list": "List of Contacts / Investors",
+	"navbar.contact.list.desc": "View and Manage your Contacts in a Simple way",
+
+	"navbar.tools": "Tools",
+
+	"navbar.tools.estr": "Structures",
+	"navbar.tools.estr.desc": "Check the most efficient way to build Binary Structures",
+
+	"navbar.tools.inv": "Investments",
+	"navbar.tools.inv.desc": "Manage your own investments in an easy and practical way",
+
+	"navbar.tools.evt": "Events",
+	"navbar.tools.evt.desc": "Manage the Events of your schedule in one place",
+
+	"navbar.profile": "Profile",
+	"navbar.profile.desc": "Manage your Profile information",
+
+	"navbar.logout": "Logout",
+	"navbar.logout.desc": "Save the latest application data and log out safely",
+
+	"navbar.settings": "Settings",
+
+	"navbar.settings.lang": "Language",
+	"navbar.settings.lang.es": "Spanish",
+	"navbar.settings.lang.en": "English",
+
+	"navbar.settings.apearence": "Appearance",
+
+	"navbar.settings.terms": "Terms and Conditions",
+	"navbar.settings.about": "About",
+
+
+	"dashboard.card.1": "Contacts",
+	"dashboard.card.2": "Investors",
+	"dashboard.card.3": "Investments",
+	"dashboard.card.4": "Finished",
+
+	"dashboard.graf.1": "Investment Distribution",
+	"dashboard.graf.1.a": "In Process",
+	"dashboard.graf.1.b": "Finished",
+	"dashboard.graf.1.0": "At this time you do not have registered investments in your Database. As you add them, you will see them reflected in a graph",
+
+	"dashboard.graf.2": "Monthly Records",
+	"dashboard.graf.2.a": "Contacts",
+	"dashboard.graf.2.b": "Investments",
+	"dashboard.graf.2.0": "You did not add contact or investments in this month. As you add them, you will see them reflected in a graph",
+
+	"dashboard.evt": "Upcoming events",
+	"dashboard.evt.0": "At this time you do not have any events registered in your calendar. As you add them, you will see them reflected in this section",
+	"dashboard.evt.type.a": "Meeting",
+	"dashboard.evt.type.b": "Conference",
+
+	"dashboard.inv": "Investments Near to End",
+	"dashboard.inv.0": "At this time you do not have any investments registered in your Database. As you add them, you will see them reflected in this section",
+	"dashboard.inv.name": "Investor",
+	"dashboard.inv.end": "End Date",
+	"dashboard.inv.int": "Interest",
+	"dashboard.inv.int.a": "Compound",
+	"dashboard.inv.int.b": "Simple",
+	"dashboard.inv.cap": "Capital",
+	"dashboard.inv.est": "Condition",
+	"dashboard.inv.ben": "Benefits",
+	"dashboard.inv.est.a": "Active",
+	"dashboard.inv.est.b": "Finished",
+
+
+	"auth.login": "LOGIN",
+	"auth.login.desc": "Please enter your email and password",
+
+	"auth.login.button": "Login",
+
+	"auth.login.ref": "You don't have an account yet?",
+	"auth.login.ref.button": "Sign up",
+
+	"auth.login.problem.text": "Problems with Login?",
+	"auth.login.problem.button": "Contact us",
+
+	"auth.login.problem.title": "Contact Means",
+	"auth.login.problem.email": "Email :",
+	"auth.login.problem.desc.1": "If you have any questions or any kind of problem, please send us an email with the Subject `Support`.",
+	"auth.login.problem.desc.2": "Do not forget to attach the user email that you use with InverGo",
+
+	"auth.reg.ref.button": "Back to Login",
+
+	"con.b1": "Contact",
+	"con.b2": "Investor",
+	"con.b3": "Register",
+
+	"con.name": "Name",
+	"con.email": "Email",
+	"con.phone": "Phone",
+	"con.nac": "Nationality / Residence",
+
+	"con.info.1": "There are 2 Possibilities of Person Selection:",
+	"con.info.2.1": "1. Contact :",
+	"con.info.2.2": "Use this option to add a person with whom you are not yet making any investments. Later you will be able to transfer this contact to the list of Investors if necessary",
+	"con.info.3.1": "2. Investor :",
+	"con.info.3.2": "Use this option to add a person with whom you want to make an investment. Once added it is not necessary to perform any extra steps. You can automatically add investments",
+
+	"con.list.1": "Contacts",
+	"con.list.2": "Investors",
+	"con.list.3": "Search Filter",
+	"con.list.4": "The client you are looking for does not exist. Please check the search parameters and verify that the selection from the list is correct",
+	"con.list.5": "Currently you do not have any contact of this type registered in your Database.",
+
+	"con.list.table.name": "NAME",
+	"con.list.table.phone": "PHONE NUMBER",
+	"con.list.table.nac": "NATIONALITY",
+	"con.list.table.action": "ACTIONS",
+	"con.list.table.action.button": "Manage",
+
+	"--": "-------------------------------------------------------------",
+
+	"con.screen.type.1": "Contact",
+	"con.screen.type.2": "Investor",
+
+	"con.screen.b.1": "Profile",
+	"con.screen.b.2": "Actions",
+
+	"con.screen.form.1": "Name",
+	"con.screen.form.2": "Email",
+	"con.screen.form.3": "Phone Number",
+	"con.screen.form.4": "Nationality",
+	"con.screen.form.edit.1": "Cancel",
+	"con.screen.form.edit.2": "Confirm",
+
+	"con.screen.com.title": "Communication",
+	"con.screen.com.button": "Convert to Investor",
+	
+	"con.screen.com.inv": "Invested",
+	"con.screen.com.ben": "Benefit",
+	"con.screen.com.events.tittle": "Scheduled Events",
+
+	"con.screen.actions.Inv.tittle": "Investments",
+	"con.screen.actions.Ev.tittle": "Events",
+
+	"con.screen.actions.options.1": "Options",
+	"con.screen.actions.options.2": "List",
+	"con.screen.actions.options.3": "Add",
+
+	"con.screen.actions.Inv.table.cap": "CAPITAL",
+	"con.screen.actions.Inv.table.tipo": "TYPE",
+	"con.screen.actions.Inv.table.tipo.a": "Compound",
+	"con.screen.actions.Inv.table.tipo.b": "Simple",
+	"con.screen.actions.Inv.table.date": "START-END",
+	"con.screen.actions.Inv.table.estado": "STATE",
+	"con.screen.actions.Inv.table.estado.a": "In Process",
+	"con.screen.actions.Inv.table.estado.b": "Completed",
+	"con.screen.actions.Inv.table.actions": "ACTIONS",
+	"con.screen.actions.Inv.table.actions.b": "Visualize",
+
+	"con.screen.actions.Inv.0": "You currently have no investments associated with {name}",
+
+	"con.screen.actions.Inv.screen.title": "Investment Details",
+	"con.screen.actions.Inv.screen.1": "List",
+	"con.screen.actions.Inv.screen.2": "Delete",
+
+	"con.screen.actions.Inv.screen.cap": "Capital",
+	"con.screen.actions.Inv.screen.cap.1": "Initial Investment",
+	"con.screen.actions.Inv.screen.cap.2": "Profits",
+	"con.screen.actions.Inv.screen.cap.3": "Final Capital",
+
+	"con.screen.actions.Inv.screen.inv": "Investment",
+	"con.screen.actions.Inv.screen.inv.1": "Type",
+	"con.screen.actions.Inv.screen.inv.2": "Benefit",
+
+	"con.screen.actions.Inv.screen.pl": "Term",
+	"con.screen.actions.Inv.screen.pl.1": "Start date",
+	"con.screen.actions.Inv.screen.pl.2": "End date", 
+	"con.screen.actions.Inv.screen.pl.3": "Duration",
+
+	"con.screen.actions.Inv.screen.pl.3.a": "16 Months",
+	"con.screen.actions.Inv.screen.pl.3.b": "12 Months",
+
+	"con.screen.actions.Inv.add.form.1": "Capital",
+	"con.screen.actions.Inv.add.form.2": "Start Date",
+	"con.screen.actions.Inv.add.form.3": "Final Capital",
+	"con.screen.actions.Inv.add.form.4": "End Date",
+	"con.screen.actions.Inv.add.b.1": "Compound",
+	"con.screen.actions.Inv.add.b.2": "Simple",
+	"con.screen.actions.Inv.add.b.3": "Benefit",
+	"con.screen.actions.Inv.add.b.4": "Create",
+	"con.screen.actions.Inv.add.b.5": "End Date",
+
+	"con.screen.actions.Ev.type.1": "Meeting",
+	"con.screen.actions.Ev.type.2": "Conference",
+	"con.screen.actions.Ev.0": "You currently have no events associated with {name}",
+
+	"con.screen.actions.Ev.add.form.1": "Person",
+	"con.screen.actions.Ev.add.form.2": "Date Event",
+	"con.screen.actions.Ev.add.form.3": "Schedule",
+	"con.screen.actions.Ev.add.form.4": "Place / App",
+	"con.screen.actions.Ev.add.b.1": "Meeting",
+	"con.screen.actions.Ev.add.b.2": "Conference",
+	"con.screen.actions.Ev.add.b.3": "Add Event",
+	"con.screen.actions.Ev.add.b.4": "Save",
+
+	"con.screen.actions.Ev.screen.1": "List",
+	"con.screen.actions.Ev.screen.2": "Edit Scheduled Event",
+
+	"---": "-------------------------------------------------------------",
+
+	"tools.structures.select": "Select a Structure",
+	"tools.structures.btn": "Generate",
+
+	"tools.structures.info.1": "Capital to Invest",
+	"tools.structures.info.2": "Accounts Cost",
+	"tools.structures.info.3": "Liquid Profit",
+	"tools.structures.info.4": "Pasive Profit",
+
+	"----": "-------------------------------------------------------------",
+
+	"tools.inv.info.1": "Invested",
+	"tools.inv.info.2": "Benefit",
+	"tools.inv.info.3": "Capital",
+	"tools.inv.info.4": "Amount Investments",
+
+	"tools.inv.title.1": "Investment List",
+	"tools.inv.title.2": "Add Investment",
+
+	"tools.inv.option.1": "List",
+	"tools.inv.option.2": "Add",
+
+	"-----": "-------------------------------------------------------------",
+
+	"tools.evt.title.1": "List of Personal Events",
+	"tools.evt.title.2": "Add a Personal Event",
+
+	"tools.evt.option.1": "List",
+	"tools.evt.option.2": "Add",
+
+	"tools.evt.type.1": "Meeting",
+	"tools.evt.type.2": "Conference",
+
+	"------": "-------------------------------------------------------------",
+
+	"profile.info.email": "Email / User",
+	"profile.info.name": "Name and Surname",
+
+	"profile.info.avatar.1": "Change Avatar",
+	"profile.info.avatar.2": "Back to Profile",
+
+	"profile.info.lic.title.1": "Subscription Type",
+	"profile.info.lic.title.2": "Subscription Term",
+
+	"profile.info.lic.1.type": "Type",
+	"profile.info.lic.1.type.1": "Annual",
+	"profile.info.lic.1.type.2": "Life",
+	"profile.info.lic.1.value": "Subscription Value",
+
+	"profile.info.lic.2.startdate": "Start date",
+	"profile.info.lic.2.enddate": "End date",
+	"profile.info.lic.2.duration": "Duration",
+	"profile.info.lic.2.button": "Extend",
+
+	"-------": "-------------------------------------------------------------",
+
+	"prices.back": "Back to Profile",
+
+	"prices.1.title": "12 Months",
+	"prices.2.title": "Forever",
+
+	"prices.licence": "The license includes:",
+	"prices.licence.1": "Contact Tools",
+	"prices.licence.2": "Investment Management",
+	"prices.licence.3": "Calendar Events Management",
+	"prices.licence.4": "Structure Generator",
+
+	"prices.licence.copy.1": "Annual Backup",
+	"prices.licence.copy.2": "Monthly Backup",
+
+	"prices.1.button": "Annual Plan",
+	"prices.2.button": "Life Plan",
+
+	"prices.selection.title.1": "Selected Annual Plan",
+	"prices.selection.title.2": "Selected Lifetime Plan",
+	"prices.selection.info": "Your license will be modified and will be configured as follows:",
+	"prices.selection.info.date": "End of License :",
+	"prices.selection.info.date.frv": "Forever",
+	"prices.selection.info.price": "Amount Payable :",
+	"prices.selection.info.button": "Send Request",
+
+	"--------": "-------------------------------------------------------------",
+
+	"about.title": "Welcome to InverGo. The most intuitive investment and contact administration and management system.",
+	"about.subtitle": "Stop using notebooks or Excel-style systems, they are in the past. InverGo is here.",
+	"about.button": "Go to Dashboard",
+
+	"about.items.1": "Manage your Contacts",
+	"about.items.1.desc": "Create a personalized agenda for your contacts. Manage them as Investors or normal Contacts.",
+	"about.items.2": "Set your Events",
+	"about.items.2.desc": "In addition to adding your contacts, add those important meetings so you never forget anything.",
+	"about.items.3": "Manage the Investments",
+	"about.items.3.desc": "Create and manage your contacts' investments as well as your own.",
+
+	"about.ask.title": "Frequent Questions",
+
+	"about.ask.1": "What is InverGo?",
+	"about.ask.1.desc": "It is a useful application / website for investors in order to automate and digitize all their contacts, in addition to being able to manage their investments in a much easier and more intuitive way. And the best... you don't need to install anything. All tools are included on the site.",
+
+	"about.ask.2": "What are the requirements to be able to use InverGo?",
+	"about.ask.2.desc.1": "You can use our site from any device with a stable internet connection. In order to get the best visual experience, it is recommended to use a device with a screen resolution equal to or greater than 1280x720 px. (HD).",
+	"about.ask.2.desc.2": "It should be remembered that this site is not adapted and optimized for use with a mobile device. This is because the rendering size of these devices is very small, so content should be removed or hidden to ensure the experience. In any case, if you need to use the site with a mobile device, there is the possibility of using a 'Desktop version', a function that is included in browsers such as Google Chrome.",
+	
+	"about.ask.3": "Do I need an Active License to be able to use InverGo?",
+	"about.ask.3.desc": "That's correct, in order to access your account and use the tools we offer, you must have an active subscription to our system. This helps us to keep the site operational and to manage the accounts of all our users. Likewise, when more tools are included, it will not be necessary to make any kind of extra payment. Simply with your active subscription you can enjoy all our features and all the improvements we create.",
+
+	"---------": "-------------------------------------------------------------",
+
+	"terms.title": "Terms and Conditions",
+	
+	"-": "-------------------------------------------------------------"
+}

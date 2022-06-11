@@ -1,0 +1,321 @@
+{
+	"app.name": "InverGo",
+
+	"navbar.contact": "Contactos",
+
+	"navbar.contact.add": "Agregar Contacto / Inversor",
+	"navbar.contact.add.desc": "Añade de manera facil e intuitiva una nueva persona a tu lista de contactos",
+
+	"navbar.contact.list": "Listado de Contactos / Inversores",
+	"navbar.contact.list.desc": "Visualiza y Administra tus contactos de manera sencilla",
+
+	"navbar.tools": "Herramientas",
+
+	"navbar.tools.estr": "Estructuras",
+	"navbar.tools.estr.desc": "Consulta la manera mas eficiente de crear las estructuras Binarias",
+
+	"navbar.tools.inv": "Mis Inversiones",
+	"navbar.tools.inv.desc": "Administra tus propias inversiones de una manera facil y practica",
+
+	"navbar.tools.evt": "Eventos",
+	"navbar.tools.evt.desc": "Administra los Eventos de tu agenda en un solo lugar",
+
+	"navbar.profile": "Perfil",
+	"navbar.profile.desc": "Administra tu informacion de Perfil",
+
+	"navbar.logout": "Cerrar Sesion",
+	"navbar.logout.desc": "Guarda los ultimos datos de la aplicacion y cierra sesion de manera segura",
+
+	"navbar.settings": "CONFIGURACION",
+
+	"navbar.settings.lang": "Idioma",
+	"navbar.settings.lang.es": "Español",
+	"navbar.settings.lang.en": "Ingles",
+
+	"navbar.settings.apearence": "Apariencia",
+
+	"navbar.settings.terms": "Terminos y Condiciones",
+	"navbar.settings.about": "Acerca De",
+
+
+	"dashboard.card.1": "Contactos",
+	"dashboard.card.2": "Inversores",
+	"dashboard.card.3": "Inversiones",
+	"dashboard.card.4": "Finalizadas",
+
+	"dashboard.graf.1": "Distribucion de Inversiones",
+	"dashboard.graf.1.a": "En Proceso",
+	"dashboard.graf.1.b": "Finalizado",
+	"dashboard.graf.1.0": "En Estos momentos no tienes registradas inversiones en tu Base de Datos. A medida que vayas agregandolas, las veras reflejadas en un grafico",
+
+	"dashboard.graf.2": "Registro Mensual",
+	"dashboard.graf.2.a": "Contactos",
+	"dashboard.graf.2.b": "Inversiones",
+	"dashboard.graf.2.0": "No agregaste contacto ni inversiones en este mes. A medida que vayas agregandolos, las veras reflejadas en un grafico",
+
+
+	"dashboard.evt": "Proximos Eventos",
+	"dashboard.evt.0": "En estos momentos no tienes registrado ningun evento en tu calendario. A medida que vayas agregandolos, los veras reflejados en esta seccion",
+	"dashboard.evt.type.a": "Reunion",
+	"dashboard.evt.type.b": "Conferencia",
+
+	"dashboard.inv": "Inversiones Proximas a Finalizar",
+	"dashboard.inv.0": "En estos momentos no tienes registada ninguna inversiones en tu Base de Datos. A medida que vayas agregandolas, las veras reflejadas en esta seccion",
+	"dashboard.inv.name": "Inversor",
+	"dashboard.inv.end": "Fecha Finalizacion",
+	"dashboard.inv.int": "Interes",
+	"dashboard.inv.int.a": "Compuesto",
+	"dashboard.inv.int.b": "Simple",
+	"dashboard.inv.cap": "Capital",
+	"dashboard.inv.est": "Estado",
+	"dashboard.inv.ben": "Beneficio",
+	"dashboard.inv.est.a": "Activo",
+	"dashboard.inv.est.b": "Finalizado",
+
+	"auth.login": "LOGIN",
+	"auth.login.desc": "Por favor Ingresa Tu correo y Contraseña",
+
+	"auth.login.button": "Iniciar Sesion",
+
+	"auth.login.ref": "Aun no Tienes Cuenta?",
+	"auth.login.ref.button": "Registrate",
+
+	"auth.login.problem.text": "Problemas con el Inicio de Sesion?",
+	"auth.login.problem.button": "Contactanos",
+
+	"auth.login.problem.title": "Medios de Contacto :",
+	"auth.login.problem.email": "Correo :",
+	"auth.login.problem.desc.1": "Si tienes alguna Duda o algun tipo de problema, por favor envianos un correo con el Asunto `Soporte`.",
+	"auth.login.problem.desc.2": "No te olvides de adjuntar el correo de usuario que utilizas con InverGo",
+
+	"auth.reg.ref.button": "Volver a Login",
+
+	"con.b1": "Contacto",
+	"con.b2": "Inversor",
+	"con.b3": "Registrar",
+
+	"con.name": "Nombre",
+	"con.email": "Correo",
+	"con.phone": "Telefono",
+	"con.nac": "Nacionalidad / Residencia",
+
+	"con.info.1": "Existen 2 Posibilidades de Seleccion de la Persona:",
+	"con.info.2.1": "1. Contacto :",
+	"con.info.2.2": "Utiliza esta opcion para agregar a una persona con quien aun no estas realizando ninguna inversion. Mas adelante seras capaz de transferir a este contacto a la lista de Inversores de ser necesario",
+	"con.info.3.1": "2. Inversor :",
+	"con.info.3.2": "Utiliza esta opcion para agregar a una persona con quien quieres realizar una inversion. Una vez agregado no es necesario realizar ningun paso extra. Automaticamente ya puedes agregarle inversiones",
+
+	"con.list.1": "Contactos",
+	"con.list.2": "Inversores",
+	"con.list.3": "Filtrar Busqueda",
+	"con.list.4": "No Existe el cliente que buscas. Por favor revisa los parametros de busqueda y verifica que la seleccion de la lista sea correcta",
+	"con.list.5": "Actualmente no tienes ningun contacto de este Tipo registrado en tu Base de Datos.",
+
+	"con.list.table.name": "NOMBRE",
+	"con.list.table.phone": "TELEFONO",
+	"con.list.table.nac": "NACIONALIDAD",
+	"con.list.table.action": "ACCIONES",
+	"con.list.table.action.button": "Administrar",
+
+	"--": "-------------------------------------------------------------",
+
+	"con.screen.type.1": "Contacto",
+	"con.screen.type.2": "Inversor",
+
+	"con.screen.b.1": "Perfil",
+	"con.screen.b.2": "Acciones",
+
+	"con.screen.form.1": "Nombre",
+	"con.screen.form.2": "Correo",
+	"con.screen.form.3": "Telefono",
+	"con.screen.form.4": "Nacionalidad",
+	"con.screen.form.edit.1": "Cancelar",
+	"con.screen.form.edit.2": "Confirmar",
+
+	"con.screen.com.title": "Comunicacion",
+	"con.screen.com.button": "Convertir en Inversor",
+	
+	"con.screen.com.inv": "Invertido",
+	"con.screen.com.ben": "Beneficio",
+	"con.screen.com.events.tittle": "Eventos Programados",
+
+	"con.screen.actions.Inv.tittle": "Inversiones",
+	"con.screen.actions.Ev.tittle": "Eventos",
+
+	"con.screen.actions.options.1": "Opciones",
+	"con.screen.actions.options.2": "Listado",
+	"con.screen.actions.options.3": "Agregar",
+
+	"con.screen.actions.Inv.table.cap": "CAPITAL",
+	"con.screen.actions.Inv.table.tipo": "TIPO INV",
+	"con.screen.actions.Inv.table.tipo.a": "Compuesto",
+	"con.screen.actions.Inv.table.tipo.b": "Simple",
+	"con.screen.actions.Inv.table.date": "INICIO-FIN",
+	"con.screen.actions.Inv.table.estado": "ESTADO",
+	"con.screen.actions.Inv.table.estado.a": "En Proceso",
+	"con.screen.actions.Inv.table.estado.b": "Completado",
+	"con.screen.actions.Inv.table.actions": "ACCIONES",
+	"con.screen.actions.Inv.table.actions.b": "Visualizar",
+	
+	"con.screen.actions.Inv.0": "Actualmente no tienes inversiones asociadas a {name}",
+
+	"con.screen.actions.Inv.screen.title": "Detalles de la Inversion",
+	"con.screen.actions.Inv.screen.1": "Listado",
+	"con.screen.actions.Inv.screen.2": "Eliminar",
+
+	"con.screen.actions.Inv.screen.cap": "Capital",
+	"con.screen.actions.Inv.screen.cap.1": "Inversion Inicial",
+	"con.screen.actions.Inv.screen.cap.2": "Ganancia",
+	"con.screen.actions.Inv.screen.cap.3": "Capital Final",
+
+	"con.screen.actions.Inv.screen.inv": "Inversion",
+	"con.screen.actions.Inv.screen.inv.1": "Tipo",
+	"con.screen.actions.Inv.screen.inv.2": "Beneficio",
+
+	"con.screen.actions.Inv.screen.pl": "Plazo",
+	"con.screen.actions.Inv.screen.pl.1": "Fecha Inicio",
+	"con.screen.actions.Inv.screen.pl.2": "Fecha Finalizacion", 
+	"con.screen.actions.Inv.screen.pl.3": "Duracion",
+
+	"con.screen.actions.Inv.screen.pl.3.a": "16 Meses",
+	"con.screen.actions.Inv.screen.pl.3.b": "12 Meses",
+
+	"con.screen.actions.Inv.add.form.1": "Capital",
+	"con.screen.actions.Inv.add.form.2": "Fecha Inicio",
+	"con.screen.actions.Inv.add.form.3": "Capital Final",
+	"con.screen.actions.Inv.add.form.4": "Fecha Finalizacion",
+	"con.screen.actions.Inv.add.b.1": "Compuesto",
+	"con.screen.actions.Inv.add.b.2": "Simple",
+	"con.screen.actions.Inv.add.b.3": "Beneficio",
+	"con.screen.actions.Inv.add.b.4": "Crear",
+	"con.screen.actions.Inv.add.b.5": "Finalizacion",
+
+	"con.screen.actions.Ev.type.1": "Reunion",
+	"con.screen.actions.Ev.type.2": "Conferencia",
+	"con.screen.actions.Ev.0": "Actualmente no tienes eventos asociados a {name}",
+
+	"con.screen.actions.Ev.add.form.1": "Persona",
+	"con.screen.actions.Ev.add.form.2": "Fecha Evento",
+	"con.screen.actions.Ev.add.form.3": "Horario",
+	"con.screen.actions.Ev.add.form.4": "Lugar / App",
+	"con.screen.actions.Ev.add.b.1": "Reunion",
+	"con.screen.actions.Ev.add.b.2": "Conferencia",
+	"con.screen.actions.Ev.add.b.3": "Agregar Evento",
+	"con.screen.actions.Ev.add.b.4": "Guardar",
+
+	"con.screen.actions.Ev.screen.1": "Listado",
+	"con.screen.actions.Ev.screen.2": "Editar Evento Programado",
+
+	"---": "-------------------------------------------------------------",
+
+	"tools.structures.select": "Selecciona una Estructura",
+	"tools.structures.btn": "Generar",
+
+	"tools.structures.info.1": "Capital a Invertir",
+	"tools.structures.info.2": "Costo Cuentas",
+	"tools.structures.info.3": "Ganancia Liquida",
+	"tools.structures.info.4": "Ganancia Pasiva",
+
+	"----": "-------------------------------------------------------------",
+
+	"tools.inv.info.1": "Invertido",
+	"tools.inv.info.2": "Beneficio",
+	"tools.inv.info.3": "Total Capital",
+	"tools.inv.info.4": "Total Inversiones",
+
+	"tools.inv.title.1": "Listado de Inversiones",
+	"tools.inv.title.2": "Agregar Inversion",
+
+	"tools.inv.option.1": "Listado",
+	"tools.inv.option.2": "Agregar",
+
+	"-----": "-------------------------------------------------------------",
+
+	"tools.evt.title.1": "Listado de Eventos Personales",
+	"tools.evt.title.2": "Agregar un Evento Personal",
+
+	"tools.evt.option.1": "Listado",
+	"tools.evt.option.2": "Agregar",
+
+	"tools.evt.type.1": "Reunion",
+	"tools.evt.type.2": "Conferencia",
+
+	"------": "-------------------------------------------------------------",
+
+	"profile.info.email": "Correo / Usuario",
+	"profile.info.name": "Nombre y Apellido",
+
+	"profile.info.avatar.1": "Cambiar Avatar",
+	"profile.info.avatar.2": "Volver al Perfil",
+
+	"profile.info.lic.title.1": "Tipo de Suscripcion",
+	"profile.info.lic.title.2": "Plazo de Suscripcion",
+
+	"profile.info.lic.1.type": "Tipo",
+	"profile.info.lic.1.type.1": "Anual",
+	"profile.info.lic.1.type.2": "Vitalicio",
+	"profile.info.lic.1.value": "Valor Suscripcion",
+
+	"profile.info.lic.2.startdate": "Fecha Inicio",
+	"profile.info.lic.2.enddate": "Fecha Finalizacion",
+	"profile.info.lic.2.duration": "Duracion",
+	"profile.info.lic.2.button": "Extender",
+
+	"-------": "-------------------------------------------------------------",
+
+	"prices.back": "Volver al Perfil",
+
+	"prices.1.title": "12 Meses",
+	"prices.2.title": "Vitalicio",
+
+	"prices.licence": "La licencia incluye :",
+	"prices.licence.1": "Herramientas de contactos",
+	"prices.licence.2": "Administracion de Inversiones",
+	"prices.licence.3": "Administracion de Eventos de Calendario",
+	"prices.licence.4": "Generador de Estructuras",
+
+	"prices.licence.copy.1": "Copia de seguridad Anual",
+	"prices.licence.copy.2": "Copia de seguridad Mensual",
+
+	"prices.1.button": "Plan Anual",
+	"prices.2.button": "Plan Vitalicio",
+
+	"prices.selection.title.1": "Plan Anual Seleccionado",
+	"prices.selection.title.2": "Plan Vitalicio Seleccionado",
+	"prices.selection.info": "Tu licencia va a ser modificada y se configurara de la siguiente manera :",
+	"prices.selection.info.date": "Fin de Licencia :",
+	"prices.selection.info.date.frv": "De por Vida",
+	"prices.selection.info.price": "Monto a Pagar :",
+	"prices.selection.info.button": "Enviar Peticion",
+
+	"--------": "-------------------------------------------------------------",
+
+	"about.title": "Bienvenido a InverGo. El sistema de administracion y gestion de inversiones y contactos mas intuitivo.",
+	"about.subtitle": "Deja ya de utilizar libretas o sistemas estilos Excel, esas cosas quedaron en el pasado. InverGo esta aqui.",
+	"about.button": "Ir al Dashboard",
+
+	"about.items.1": "Administra tus Contactos",
+	"about.items.1.desc": "Crea una agenda personalizada para tus contactos. Gestionalos como Inversores o Contactos normales.",
+	"about.items.2": "Establece tus Eventos",
+	"about.items.2.desc": "Ademas de agregar tus contactos, agrega aquellas reuniones importantes para que nunca se te olvide nada.",
+	"about.items.3": " Gestiona las Inversiones",
+	"about.items.3.desc": "Crea y administra las inversiones de tus contactos como asi tambien las tuyas propias.",
+
+	"about.ask.title": "Preguntas Frecuentes",
+
+	"about.ask.1": "Que es InverGo ?",
+	"about.ask.1.desc": "Se trata de una aplicacion / sitio web de utilidad para inversores con el fin de automatizar y digitalizar todos sus contactos, ademas de poder administrar sus inversiones de una manera mucho mas facil e intuitiva. Y lo mejor... no necesitas instalar nada. Todas las herramientas estan incluidas en el sitio.",
+
+	"about.ask.2": "Cuales son los requisitos para poder utilizar InverGo ?",
+	"about.ask.2.desc.1": "Puedes utilizar nuestro sitio desde cualquier dispositivo con una conexion a internet estable. Para poder obtener la mejor experiencia visual, se recomienda utilizar un dispositivo con una resolucion de pantalla igual o superior a 1280x720 px. (HD).",
+	"about.ask.2.desc.2": "Cabe recordar que este sitio no esta adaptado y optimizado para uso con un dispositivo movil. Esto debido a que el tamaño de renderizado de estos dispositivos es muy pequeño, por lo que se deberia eliminar u ocultar contenido para asegurar la experiencia. De todas maneras si se requiere utilizar el sitio con un dispositivo movil, existe la posibilidad de utilizar 'Version para escritorio', funcion que esta incluida en navegadores como Google Chrome.",
+	
+	"about.ask.3": "Necesito de una Licencia Activa para poder utilizar InverGo ?",
+	"about.ask.3.desc": "Es correcto, para poder acceder a tu cuenta y utilizar las herramientas que ofrecemos es necesario contar con una suscripcion activa a nuestro sistema. Esto nos ayuda a poder mantener el sitio operativo y poder administrar las cuentas de todos nuestros usuarios. Asi mismo en el momento en el que mas herramientas sean incluidas no sera necesario realizar ninguna clase de pago extra. Simplemente con tu suscripcion activa podras gozar de todas nuestras funcionalidades y todas las mejoras que creamos.",
+
+	"---------": "-------------------------------------------------------------",
+
+	"terms.title": "Terminos y Condiciones",
+	
+	"-": "-------------------------------------------------------------"
+}

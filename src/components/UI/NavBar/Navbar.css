@@ -1,0 +1,15 @@
+.menuMas{
+    right: -250px;
+}
+
+.perfilPic {
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 45px;
+    position: absolute;
+    top: -6px;
+}
+
+.menuHover:hover{
+    background-color: #000a12;
+}
