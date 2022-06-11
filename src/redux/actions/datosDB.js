@@ -39,7 +39,7 @@ export const startNewContact = (contacto, history) => {
 
     return async (dispatch, getState) => {
 
-        axios.post("http://localhost:4000/contactos", contacto).then(res => {
+        axios.post("https://backend-invergo-production.up.railway.app/contactos", contacto).then(res => {
             dispatch(addNewContact(res.data));
         });
 
@@ -64,7 +64,7 @@ export const startEditContact = (contacto) => {
 
     return async (dispatch, getState) => {
 
-        axios.put(`http://localhost:4000/contactos/${contacto._id}`, contacto).then(() => {
+        axios.put(`https://backend-invergo-production.up.railway.app/contactos/${contacto._id}`, contacto).then(() => {
 
             dispatch(refreshContact(contacto._id, contacto));
 
@@ -88,7 +88,7 @@ export const startDeleteContact = (_id, eventos, inversiones, history) => {
 
     return async (dispatch, getState) => {
 
-        axios.delete(`http://localhost:4000/contactos/${_id}`).then(() => {
+        axios.delete(`https://backend-invergo-production.up.railway.app/contactos/${_id}`).then(() => {
 
             dispatch(deleteContact(_id));
 
@@ -116,7 +116,7 @@ export const startNewEvento = (evento) => {
 
     return async (dispatch, getState) => {
 
-        axios.post("http://localhost:4000/eventos", evento).then(res => {
+        axios.post("https://backend-invergo-production.up.railway.app/eventos", evento).then(res => {
             dispatch(addNewEvent(res.data));
         });
 
@@ -124,7 +124,6 @@ export const startNewEvento = (evento) => {
 
         (localStorage.getItem('lang') === 'es-MX') ? mje = 'Evento Creado Correctamente' : mje = 'Event Created Correctly';
         Toast.fire({ icon: 'success', title: mje });
-
     }
 }
 
@@ -139,7 +138,7 @@ export const startEditEvent = (evento) => {
 
     return async (dispatch, getState) => {
 
-        axios.put(`http://localhost:4000/eventos/${evento._id}`, evento).then(() => {
+        axios.put(`https://backend-invergo-production.up.railway.app/eventos/${evento._id}`, evento).then(() => {
 
             dispatch(refreshEvent(evento._id, evento));
 
@@ -164,7 +163,7 @@ export const startDeleteEvent = (_id) => {
 
     return async (dispatch, getState) => {
 
-        axios.delete(`http://localhost:4000/eventos/${_id}`).then(() => {
+        axios.delete(`https://backend-invergo-production.up.railway.app/eventos/${_id}`).then(() => {
 
             dispatch(deleteEvent(_id));
 
@@ -191,7 +190,7 @@ export const startNewInversion = (inversion) => {
 
     return async (dispatch, getState) => {
 
-        axios.post("http://localhost:4000/inversiones", inversion).then((resp) => {
+        axios.post("https://backend-invergo-production.up.railway.app/inversiones", inversion).then((resp) => {
 
             dispatch(addNewInversion(resp.data));
 
@@ -216,7 +215,7 @@ export const startDeleteInversion = (_id) => {
 
     return async (dispatch, getState) => {
 
-        axios.delete(`http://localhost:4000/inversiones/${_id}`).then(() => {
+        axios.delete(`https://backend-invergo-production.up.railway.app/inversiones/${_id}`).then(() => {
 
             dispatch(deleteInvestment(_id));
 

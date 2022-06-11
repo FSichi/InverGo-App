@@ -7,7 +7,7 @@ export const chargeDataset = async (uid) => {
 
     try {
 
-        await axios.get(`http://localhost:4000/general/getDataset/${uid}`).then((resp) => {
+        await axios.get(`https://backend-invergo-production.up.railway.app/general/getDataset/${uid}`).then((resp) => {
             dataset = resp.data;
         });
 
@@ -62,7 +62,7 @@ const updateInversion = async (inversion, dispatch) => {
         }
     }
 
-    axios.put(`http://localhost:4000/inversiones/${inversion._id}`, inversionEdit).then(() => {
+    axios.put(`https://backend-invergo-production.up.railway.app/inversiones/${inversion._id}`, inversionEdit).then(() => {
         dispatch(refreshInversion(inversion._id, inversionEdit));
     })
 
@@ -73,13 +73,13 @@ export const eliminarDatosContacto = async (eventos, inversiones, dispatch) => {
     try {
 
         eventos.forEach(evt => {
-            axios.delete(`http://localhost:4000/eventos/${evt._id}`).then(() => {
+            axios.delete(`https://backend-invergo-production.up.railway.app/eventos/${evt._id}`).then(() => {
                 dispatch(deleteEvent(evt._id));
             });
         });
 
         inversiones.forEach(inv => {
-            axios.delete(`http://localhost:4000/inversiones/${inv._id}`).then(() => {
+            axios.delete(`https://backend-invergo-production.up.railway.app/inversiones/${inv._id}`).then(() => {
                 dispatch(deleteInvestment(inv._id));
             });
         });
