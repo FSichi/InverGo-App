@@ -120,7 +120,7 @@ export const AddScreen = ({ history }) => {
 
                                     {/* TIPO */}
 
-                                    <div className='col-6 col-lg-6 col-md-6 bg-indigo-900 dark:bg-gray-900 mt-4 rounded-2xl'>
+                                    <div className='col-12 col-lg-6 col-md-6 bg-indigo-900 dark:bg-gray-900 mt-4 rounded-2xl'>
                                         {
                                             (changeContact)
                                                 ?
@@ -158,11 +158,11 @@ export const AddScreen = ({ history }) => {
 
                                     {/* IMAGENES */}
 
-                                    <div className='col-5 col-lg-6 col-md-6 ms-lg-0 ms-md-0 ms-4 flex justify-center'>
+                                    <div className='col-5 col-lg-6 col-md-6 ms-lg-0 ms-md-0 ms-4 flex justify-center d-none d-md-block'>
                                         {
                                             (changeContact)
-                                                ? <img alt="profil" src={`../assets/contact1.svg`} className="lg:ml-16 md:ml-16 sm:ml-15 h-30 w-40 mt-4" />
-                                                : <img alt="profil" src={`../assets/inversor.svg`} className="lg:ml-16 md:ml-16 sm:ml-15 h-30 w-40 mt-4" />
+                                                ? <img alt="profil" src={`../assets/contact1.svg`} className="lg:ml-16 md:ml-28 sm:ml-15 h-30 w-40 mt-4" />
+                                                : <img alt="profil" src={`../assets/inversor.svg`} className="lg:ml-16 md:ml-28 sm:ml-15 h-30 w-40 mt-4" />
                                         }
                                     </div>
 
