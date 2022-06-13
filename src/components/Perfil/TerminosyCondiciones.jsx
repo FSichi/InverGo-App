@@ -10,7 +10,7 @@ export const TerminosyCondiciones = () => {
 
             <div className='mb-4'>
                 <h1 className='text-2xl font-bold text-center mb-5'><FormattedMessage id="terms.title" defaultMessage="Terms Title" /></h1>
-                <p className='text-xl text-center'> Last updated: March 23, 2022 </p>
+                <p className='text-xl text-center'> Last updated: March 30, 2022 </p>
                 <p className='text-xl text-center'>Please read these terms and conditions carefully before using Our Service. </p>
             </div>
 

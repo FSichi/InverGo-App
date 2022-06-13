@@ -11,8 +11,8 @@ export const TopInv = ({ inversiones, contactosDB }) => {
 
     return (
         <div className="flex flex-col">
-            <div className="-my-2 overflow-x-auto sm:-mx-7 ">
-                <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-5">
+            <div className="-my-2 overflow-x-auto sm:-mx-7">
+                <div className="py-2 align-middle inline-block min-w-full sm:px-7 lg:px-0">
                     <div className="shadow-sm overflow-hidden sm:rounded-lg">
                         <table className="min-w-full divide-y divide-gray-600">
                             <thead className='bg-blue-900 dark:bg-black'>

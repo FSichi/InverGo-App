@@ -6,7 +6,7 @@ export const Eventos = ({ eventos }) => {
     const eventosOrder = ordenarEventosByFecha(eventos);
 
     return (
-        <div className='me-2 ms-2'>
+        <div className='md:ml-3 md:mr-5 lg:ml-3 lg:mr-3'>
             {
                 eventosOrder.map((item) => (
 
@@ -38,7 +38,7 @@ export const Eventos = ({ eventos }) => {
 
                         <div className='col-7 ms-4 border-l-2'>
 
-                            <div className='row ms-2'>
+                            <div className='row md:ml-0 lg:ml-1'>
                                 <div className='col-1'>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-teal-300 dark:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -58,7 +58,7 @@ export const Eventos = ({ eventos }) => {
                                 </div>
                             </div>
 
-                            <div className='row mt-3 ms-2'>
+                            <div className='row mt-3 md:ml-0 lg:ml-1'>
                                 <div className='col-1'>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-teal-300 dark:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />

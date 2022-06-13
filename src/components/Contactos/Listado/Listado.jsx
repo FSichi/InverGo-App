@@ -23,7 +23,7 @@ export const Listado = () => {
     const { search } = formValues;
 
     return (
-        <div className='container list'>
+        <div className='container-fluid list'>
             <div className='row'>
 
                 {/* PARTE IZQUIERDA */}
@@ -65,7 +65,7 @@ export const Listado = () => {
 
                     {/* FILTRAR */}
 
-                    <div className='w-100 mt-4 bg-indigo-600 dark:bg-gray-800 rounded-2xl p-4'>
+                    <div className='w-100 mt-3 bg-indigo-600 dark:bg-gray-800 rounded-2xl p-4'>
                         <div className='row'>
                             <div className='col-12 mb-4 text-center'>
                                 <span className='text-gray-100 text-2xl'><FormattedMessage id="con.list.3" defaultMessage="Filter" /></span>
@@ -83,7 +83,7 @@ export const Listado = () => {
 
                 {/* PARTE DERECHA */}
 
-                <div className='col-9 col-md-12 col-lg-9 mt-md-5 mt-lg-0'>
+                <div className='col-9 col-md-12 col-lg-9 mt-md-4 mt-lg-0'>
                     <div className='bg-gray-800 rounded-2xl'>
                         {
                             (changeContact)

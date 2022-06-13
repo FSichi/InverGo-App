@@ -33,17 +33,17 @@ export const ContactoScreen = ({ history }) => {
                         {/* IMAGEN Y NOMBRE - NACIONALIDAD */}
 
                         <div className='row'>
-                            <div className='col-4 col-md-6 col-lg-12 flex justify-center'>
+                            <div className='col-4 col-md-12 col-lg-12 flex justify-center'>
                                 {
                                     (contacto.nacionalidad === 'Estados Unidos')
                                         ? <img className="rounded-lg" width="80px" src={`../../assets/flags/US.svg`} alt='Logo Perfil' />
                                         : <img className="rounded-lg" width="80px" src={`../../assets/flags/${contacto.nacionalidad}.svg`} alt='Logo Perfil' />
                                 }
                             </div>
-                            <div className='col-md-6 col-lg-12 mt-3 mb-1 text-center'>
+                            <div className='col-md-12 col-lg-12 mt-3 mb-1 text-center'>
                                 <h2 className="text-gray-200 text-3xl md:text-4xl lg:text-3xl">{contacto.nombre}</h2>
                             </div>
-                            <div className='col-md-6 col-lg-12 text-center flex justify-center'>
+                            <div className='col-md-12 col-lg-12 text-center flex justify-center'>
                                 <h4 className="text-gray-200 text-2xl md:text-3xl lg:text-2xl bg-indigo-900 dark:bg-indigo-700 p-2 rounded-xl mt-2 w-50">
                                     {
                                         (contacto.tipoContacto === 'Inversor')

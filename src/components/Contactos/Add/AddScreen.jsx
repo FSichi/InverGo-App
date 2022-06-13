@@ -56,13 +56,13 @@ export const AddScreen = ({ history }) => {
 
             <div className='row justify-center'>
 
-                <form className='col-10' onSubmit={handleSubmit(handleRegister)}>
+                <form className='col-10 col-lg-10 col-md-12' onSubmit={handleSubmit(handleRegister)}>
 
                     <div className='row bg-indigo-600 dark:bg-gray-800 p-4 rounded-2xl'>
 
                         {/* INPUTS */}
 
-                        <div className='col-5 me-4'>
+                        <div className='col-5 col-lg-5 col-md-12 me-lg-4'>
 
                             <div className='col-12'>
                                 <div className="form-outline form-white mb-3">
@@ -110,7 +110,7 @@ export const AddScreen = ({ history }) => {
 
                         {/* BOTONES */}
 
-                        <div className='col-6 ms-5'>
+                        <div className='col-6 col-lg-6 col-md-12 ms-lg-5 ms-md-2'>
 
                             {/* TIPO CONTACTO - IMAGEN */}
 
@@ -158,7 +158,7 @@ export const AddScreen = ({ history }) => {
 
                                     {/* IMAGENES */}
 
-                                    <div className='col-6'>
+                                    <div className='col-6 flex justify-center'>
                                         {
                                             (changeContact)
                                                 ? <img alt="profil" src={`../assets/contact1.svg`} className="ml-16 h-30 w-40 mt-4" />
@@ -170,7 +170,7 @@ export const AddScreen = ({ history }) => {
 
                             </div>
 
-                            <div className="relative flex mt-2 items-center">
+                            <div className="relative flex mt-2 items-center me-3">
                                 <div className="flex-grow border-t border-teal-300 dark:border-indigo-400"></div>
                                 <span className="flex-shrink mx-4 text-teal-400 dark:text-indigo-400"> <Info /> </span>
                                 <div className="flex-grow border-t border-indigo-300 dark:border-indigo-400"></div>
@@ -178,7 +178,7 @@ export const AddScreen = ({ history }) => {
 
                             {/* REGISTRO */}
 
-                            <div className='col-12 mt-5 flex justify-end'>
+                            <div className='col-12 lg:mt-7 md:mt-3 flex lg:justify-end md:justify-center'>
                                 <button type='submit' className="p-3 mt-2 rounded-lg w-50 bg-blue-900 dark:bg-indigo-600 text-gray-200 font-medium hover:font-bold hover:bg-teal-600 dark:hover:bg-indigo-800">
                                     <p className="text-xl"><FormattedMessage id="con.b3" defaultMessage="Register" /></p>
                                 </button>

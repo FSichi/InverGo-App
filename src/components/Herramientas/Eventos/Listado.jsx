@@ -42,7 +42,7 @@ export const Listado = ({ eventos, uid, name }) => {
     }
 
     return (
-        <div className='mt-4'>
+        <div className='lg:mt-4 md:mt-2'>
             {
                 (visualizar)
                     ?
@@ -84,15 +84,15 @@ export const Listado = ({ eventos, uid, name }) => {
                                             {
                                                 eventos.map((item) => (
 
-                                                    <div className='col-6' key={item._id}>
+                                                    <div className='col-6 col-lg-6 col-md-12' key={item._id}>
 
                                                         <div className='row'>
 
                                                             {/* TARJETA */}
 
-                                                            <div className='col-10'>
+                                                            <div className='col-11'>
 
-                                                                <div className='row mt-2 mb-2 p-3 ms-2 me-2 bg-blue-400 dark:bg-gray-900 rounded-2xl'>
+                                                                <div className='row mt-3 mb-2 p-3 ms-2 me-2 bg-blue-400 dark:bg-gray-900 rounded-2xl'>
 
                                                                     {/* TIPO DE EVENTO - PERSONA */}
 
@@ -166,9 +166,9 @@ export const Listado = ({ eventos, uid, name }) => {
 
                                                             {/* BOTONES */}
 
-                                                            <div className='col-2'>
+                                                            <div className='col-1 mt-2'>
 
-                                                                <div className='col-2 grid place-content-center mt-3' onClick={() => { handleDelete(item._id) }}>
+                                                                <div className='col-2 ms-2 grid place-content-center mt-3' onClick={() => { handleDelete(item._id) }}>
 
                                                                     <div className='p-3 bg-blue-900 dark:bg-gray-900 rounded-2xl hover:bg-red-500 dark:hover:bg-red-600'>
                                                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -177,7 +177,7 @@ export const Listado = ({ eventos, uid, name }) => {
                                                                     </div>
 
                                                                 </div>
-                                                                <div className='col-2 grid place-content-center mt-2' onClick={() => { handleVisualizar(item._id) }}>
+                                                                <div className='col-2 ms-2 grid place-content-center mt-2' onClick={() => { handleVisualizar(item._id) }}>
 
                                                                     <div className='p-3 bg-blue-900 dark:bg-gray-900 rounded-2xl hover:bg-teal-400 dark:hover:bg-teal-600'>
                                                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

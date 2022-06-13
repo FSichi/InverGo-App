@@ -90,7 +90,7 @@ export const Listado = ({ contacto, eventos }) => {
 
                                                         {/* TARJETA */}
 
-                                                        <div className='col-8'>
+                                                        <div className='col-8 col-lg-8 col-md-10'>
 
                                                             <div className='row mt-2 mb-2 p-3 ms-2 me-2 bg-blue-400 dark:bg-gray-900 rounded-2xl'>
 
@@ -162,9 +162,9 @@ export const Listado = ({ contacto, eventos }) => {
 
                                                         {/* BOTONES */}
 
-                                                        <div className='col-2 flex'>
+                                                        <div className='col-2 col-lg-2 col-md-2 flex'>
 
-                                                            <div className='col-6 grid place-content-center' onClick={() => { handleVisualizar(item._id) }}>
+                                                            <div className='col-6 col-lg-6 col-md-2 ms-lg-2 ms-md-0 me-2 grid place-content-center' onClick={() => { handleVisualizar(item._id) }}>
 
                                                                 <div className='p-3 bg-blue-900 dark:bg-gray-900 rounded-2xl hover:bg-teal-400 dark:hover:bg-teal-600'>
                                                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -173,7 +173,7 @@ export const Listado = ({ contacto, eventos }) => {
                                                                 </div>
 
                                                             </div>
-                                                            <div className='col-6 grid place-content-center' onClick={() => { handleDelete(item._id) }}>
+                                                            <div className='col-6 col-lg-6 col-md-2 md:ml-10 lg:ml-5 grid place-content-center' onClick={() => { handleDelete(item._id) }}>
 
                                                                 <div className='p-3 bg-blue-900 dark:bg-gray-900 rounded-2xl hover:bg-red-500 dark:hover:bg-red-600'>
                                                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

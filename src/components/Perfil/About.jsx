@@ -85,11 +85,11 @@ export const About = () => {
             {/* PREGUNTAS FRECUENTES */}
 
             <div className="py-20 px-4 dark:text-gray-100">
-                <div className="mx-auto max-w-6xl flex flex-col md:flex-row">
-                    <h2 className="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9">
+                <div className="mx-auto max-w-6xl flex flex-col lg:flex-row">
+                    <h2 className="mr-8 w-full md:w-3/3 lg:w-1/3 text-3xl font-extrabold leading-9">
                         <FormattedMessage id="about.ask.title" defaultMessage=" PF ASK" />
                     </h2>
-                    <dl className="w-full md:w-2/3">
+                    <dl className="w-full md:w-3/3 lg:w-2/3 md:mt-5 lg:mt-0">
                         <dt className="mb-4">
                             <h3 className="text-xl font-bold">
                                 <FormattedMessage id="about.ask.1" defaultMessage="Ask 1" />

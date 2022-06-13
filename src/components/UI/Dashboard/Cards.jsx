@@ -15,7 +15,7 @@ export const Cards = ({ contactos, inversiones }) => {
 const CardIzquierda = ({ imgSrc, idMsg, defMsg, info }) => {
 
     return (
-        <div className='col-lg-5 col-md-5 me-lg-5 me-md-5 ms-md-5 ms-lg-0 text-white mt-3 bg-indigo-600 dark:bg-gray-800 rounded-2xl shadow-2xl' >
+        <div className='col-lg-5 col-md-5 me-lg-5 me-md-5 ms-md-5 ms-lg-0 text-white mt-3 bg-indigo-600 dark:bg-gray-800 rounded-xl shadow-2xl' >
             <div className='row mt-3 mb-3'>
                 <div className='col-lg-12 col-md-12 d-flex flex-column align-items-center'>
                     <img src={`${imgSrc}`} alt='Usuario' style={{ height: '70px', width: '70px' }} />
@@ -34,7 +34,7 @@ const CardIzquierda = ({ imgSrc, idMsg, defMsg, info }) => {
 const CardDerecha = ({ imgSrc, idMsg, defMsg, info }) => {
 
     return (
-        <div className='col-lg-5 col-md-5 text-white mt-3 bg-indigo-600 dark:bg-gray-800 rounded-2xl shadow-2xl' >
+        <div className='col-lg-5 col-md-5 text-white mt-3 bg-indigo-600 dark:bg-gray-800 rounded-xl shadow-2xl' >
             <div className='row mt-3 mb-3'>
                 <div className='col-lg-12 col-md-12 d-flex flex-column align-items-center'>
                     <img src={imgSrc} alt='Usuario' style={{ height: '70px', width: '70px' }} />

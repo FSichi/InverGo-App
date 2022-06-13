@@ -7,6 +7,12 @@ import { useForm } from '../../../hooks/useForm';
 import { startNewInversion } from '../../../redux/actions/datosDB';
 import { Separador } from '../../UI/Separador';
 
+const buttonStyle = `
+        p-3 rounded-lg bg-blue-500 dark:bg-gray-900 dark:text-teal-300 
+        w-100 lg:mt-0 md:mt-5 md:mr-9 md:ml-9 lg:mr-9 lg:ml-10 
+        hover:bg-indigo-900 hover:text-gray-100 dark:hover:bg-green-900 dark:hover:text-gray-200
+`;
+
 export const Agregar = ({ uid }) => {
 
     const dispatch = useDispatch();
@@ -89,7 +95,7 @@ export const Agregar = ({ uid }) => {
 
             {/* INPUTS */}
 
-            <div className='col-7'>
+            <div className='col-7 col-lg-7 col-md-12'>
 
                 {/* CAPITAL INICIAL */}
 
@@ -189,11 +195,11 @@ export const Agregar = ({ uid }) => {
 
             {/* PARTE DERECHA */}
 
-            <div className='col-4'>
+            <div className='col-4 col-lg-4 col-md-12 lg:mr-5'>
 
                 {/* BOTONES --> COMPUESTO - SIMPLE */}
 
-                <div className='bg-blue-900 dark:bg-gray-900 p-3 rounded-2xl'>
+                <div className='bg-blue-900 dark:bg-gray-900 p-3 rounded-2xl md:mr-8 md:ml-8 md:mt-4 lg:mt-0'> {/* lg:mr-0 lg:ml-0 */}
                     {
                         (changeTipo)
                             ?
@@ -256,10 +262,10 @@ export const Agregar = ({ uid }) => {
                 {/* BOTON CREAR */}
 
                 <div className='flex justify-center mt-4'>
-                    <button className="p-3 rounded-lg bg-blue-500 dark:bg-gray-900 dark:text-teal-300 w-75 hover:bg-indigo-900 hover:text-gray-100 dark:hover:bg-green-900 dark:hover:text-gray-200"
+                    <button className={buttonStyle}
                         type="button" onClick={handleAddInversion}
                     >
-                        <p className=" font-medium text-xl ml-4"><FormattedMessage id="con.screen.actions.Inv.add.b.4" defaultMessage="Create" /></p>
+                        <p className=" font-medium text-xl"><FormattedMessage id="con.screen.actions.Inv.add.b.4" defaultMessage="Create" /></p>
                     </button>
                 </div>
 

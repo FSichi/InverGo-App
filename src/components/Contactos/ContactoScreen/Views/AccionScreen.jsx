@@ -29,7 +29,7 @@ export const AccionScreen = ({ contacto, eventos, inversiones }) => {
     }
 
     return (
-        <div className='row me-1'>
+        <div className='row me-1 md:ml-0 lg:ml-0'>
 
             {/* MENU DE ACCIONES - ELECCIONES */}
 

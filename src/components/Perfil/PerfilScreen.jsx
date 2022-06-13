@@ -110,12 +110,12 @@ export const PerfilScreen = () => {
         <div className='container list'>
             <div className='row flex justify-center'>
 
-                <div className='col-3 mt-1'>
+                <div className='col-3 col-lg-3 col-md-12 mt-1'>
                     <div className='bg-indigo-600 dark:bg-gray-800 text-gray-100 p-3 rounded-2xl'>
                         <div className='grid place-content-center mt-5'>
                             <img alt="profil" src={`../assets/avatars/${avatarPic}.svg`} className="h-60" />
                         </div>
-                        <button className="p-3 rounded-lg bg-blue-400 text-gray-900 dark:bg-gray-900 dark:text-teal-300 w-100 mt-5 hover:bg-indigo-800 hover:text-gray-100 dark:hover:bg-indigo-800 dark:hover:text-gray-100"
+                        <button className="p-3 rounded-lg bg-blue-400 text-gray-900 dark:bg-gray-900 dark:text-teal-300 w-100 mt-14 hover:bg-indigo-800 hover:text-gray-100 dark:hover:bg-indigo-800 dark:hover:text-gray-100"
                             onClick={avatarState}
                         >
                             {
@@ -131,12 +131,12 @@ export const PerfilScreen = () => {
                     (avatarView)
                         ?
                         (
-                            <div className='col-8'>
+                            <div className='col-8 col-lg-8 col-md-12 md:mt-5 lg:mt-0'>
                                 <div className='bg-indigo-600 dark:bg-gray-800 text-gray-100 p-3 rounded-2xl'>
-                                    <div className='row p-2'>
+                                    <div className='row p-4'>
                                         {
                                             (avatares.map(avatar => (
-                                                <div key={avatar.id} className='col-2 mt-3 avatarPic'
+                                                <div key={avatar.id} className='col-2 col-lg-2 col-md-3 mt-3 avatarPic'
                                                     onClick={() => { localStorage.setItem("avatar", `${avatar.id}`); setState(!state) }}
                                                 >
                                                     <img alt="avatarPic" src={avatar.img} className="img-fluid rounded" />
@@ -149,7 +149,7 @@ export const PerfilScreen = () => {
                         )
                         :
                         (
-                            <div className='col-8'>
+                            <div className='col-8 col-lg-8 col-md-12 md:mt-5 lg:mt-0'>
 
                                 <div className='bg-indigo-600 dark:bg-gray-800 text-gray-100 p-3 rounded-2xl'>
 

@@ -14,8 +14,8 @@ var bgColor = '';
 
 export const LoadingPage = () => {
     return (
-        <div className='text-white grid place-content-center'>  {/* vh-100 */}
-            <DoubleBubble text={text} bgColor={bgColor} center={false} width={"200px"} height={"200px"} speed={5} />
+        <div className='text-white grid place-content-center chargeDatasetSize'>  {/* vh-100 */}
+            <DoubleBubble text={text} bgColor={bgColor} center={false} width={"235px"} height={"235px"} speed={5} />
             {/* <HalfMalf justify-center text={text} bgColor={bgColor} center={false} width={"200px"} height={"200px"} speed={5} /> */}
         </div>
     )

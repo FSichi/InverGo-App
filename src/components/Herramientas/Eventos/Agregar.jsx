@@ -59,7 +59,7 @@ export const Agregar = ({ uid }) => {
 
                 {/* FORMULARIO */}
 
-                <div className='col-6'>
+                <div className='col-6 col-lg-6 col-md-8'>
 
                     {/* PERSONA */}
 
@@ -188,7 +188,7 @@ export const Agregar = ({ uid }) => {
 
                     <div className='flex justify-center mt-2'>
                         <button
-                            className="p-3 rounded-lg w-75 bg-blue-500 dark:bg-gray-900 dark:text-teal-300  hover:bg-indigo-900 hover:text-gray-100 dark:hover:bg-green-900 dark:hover:text-gray-200"
+                            className="p-3 rounded-lg w-100 md:mr-0 md:ml-0 lg:mr-20 lg:ml-20 bg-blue-500 dark:bg-gray-900 dark:text-teal-300  hover:bg-indigo-900 hover:text-gray-100 dark:hover:bg-green-900 dark:hover:text-gray-200"
                             type="submit"
                         >
                             <p className="font-medium text-xl ml-4"><FormattedMessage id="con.screen.actions.Ev.add.b.3" defaultMessage="Add Event" /></p>

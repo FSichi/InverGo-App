@@ -11,9 +11,7 @@ export const DonoutGraf = ({ inversiones }) => {
     var cantInvFin = inversiones.filter(inv => inv.estado === true).length;
     var labels = [];
 
-    (localStorage.getItem('lang') === 'es-MX')
-        ? labels = ['En Proceso', 'Finalizado']
-        : labels = ['In Process', 'Finished'];
+    (localStorage.getItem('lang') === 'es-MX') ? labels = ['En Proceso', 'Finalizado'] : labels = ['In Process', 'Finished'];
 
     const data = {
         labels: labels,
@@ -34,7 +32,7 @@ export const DonoutGraf = ({ inversiones }) => {
     };
 
     return (
-        <div className='dark:bg-gray-900 rounded-2xl p-3'>
+        <div className='dark:bg-gray-900 rounded-xl p-3'>
             {
                 (inversiones.length > 0)
                     ?
@@ -68,9 +66,7 @@ export const BarGraf = ({ inversiones, contactos }) => {
     const registros = getRegistroMensual(inversiones, contactos);
     var labels = [];
 
-    (localStorage.getItem('lang') === 'es-MX')
-        ? labels = ['Nuevos Usuarios', 'Nuevas Inversiones']
-        : labels = ['New Users', 'New Investments'];
+    (localStorage.getItem('lang') === 'es-MX') ? labels = ['Nuevos Usuarios', 'Nuevas Inversiones'] : labels = ['New Users', 'New Investments'];
 
     const data = {
         labels: [''],
@@ -94,7 +90,7 @@ export const BarGraf = ({ inversiones, contactos }) => {
     };
 
     return (
-        <div className='dark:bg-gray-900 rounded-2xl p-3'>
+        <div className='dark:bg-gray-900 rounded-xl p-3'>
             {
                 (registros[0] === 0 && registros[1] === 0)
                     ?

@@ -35,7 +35,7 @@ export const Informacion = ({ inversiones }) => {
 const CardInformacion = ({ titulo, defMsg, styleCard, info }) => {
 
     return (
-        <div className='col-3'>
+        <div className='col-3 col-lg-3 col-md-6 md:mt-5 lg:mt-0'>
             <div className="shadow-lg rounded-2xl w-100 p-3 bg-indigo-600 dark:bg-gray-800">
                 <p className="text-2xl text-gray-200 text-center">
                     <FormattedMessage id={titulo} defaultMessage={defMsg} />

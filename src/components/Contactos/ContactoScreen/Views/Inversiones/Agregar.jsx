@@ -87,7 +87,7 @@ export const Agregar = ({ contacto }) => {
     return (
         <div className='row'>
 
-            <div className='col-8'>
+            <div className='col-8 col-lg-8 col-md-12'>
 
                 {/* CAPITAL INICIAL */}
 
@@ -187,11 +187,11 @@ export const Agregar = ({ contacto }) => {
 
             </div>
 
-            <div className='col-4'>
+            <div className='col-4 col-lg-4 col-md-12 '>
 
                 {/* BOTONES --> COMPUESTO - SIMPLE */}
 
-                <div className='bg-blue-900 dark:bg-gray-900 p-3 rounded-2xl'>
+                <div className='bg-blue-900 dark:bg-gray-900 p-3 rounded-2xl md:mr-20 md:ml-20 lg:mr-0 lg:ml-0 md:mt-10 lg:mt-0'>
 
                     {
                         (changeTipo)
@@ -240,8 +240,8 @@ export const Agregar = ({ contacto }) => {
 
                 <div className='row mt-3 ms-2 me-2 flex justify-center'>
 
-                    <div className='col-5 mt-2'>
-                        <h2 className=" text-xl"><FormattedMessage id="con.screen.actions.Inv.add.b.3" defaultMessage="Benefit" /></h2>
+                    <div className='col-5 col-lg-5 col-md-12 mt-2'>
+                        <h2 className="text-center text-xl"><FormattedMessage id="con.screen.actions.Inv.add.b.3" defaultMessage="Benefit" /></h2>
                     </div>
 
                     <div className='col-6'>
@@ -251,14 +251,14 @@ export const Agregar = ({ contacto }) => {
                                 (
                                     <input
                                         type="text" value={'200 %'} disabled
-                                        className=" text-center rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-900 text-xl placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                                        className="md:mt-5 lg:mt-0 text-center rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-900 text-xl placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                                     />
                                 )
                                 :
                                 (
                                     <input
                                         type="text" value={'60 %'} disabled
-                                        className=" text-center rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-900 text-xl placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                                        className="md:mt-5 lg:mt-0 text-center rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-900 text-xl placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                                     />
                                 )
                         }
@@ -268,7 +268,7 @@ export const Agregar = ({ contacto }) => {
 
                 {/* BOTON CREAR */}
 
-                <div className='flex justify-center mt-4'>
+                <div className='flex justify-center mt-4 md:mb-5 lg:mb-0'>
                     <button
                         className="p-3 rounded-lg bg-blue-500 dark:bg-gray-900 dark:text-teal-300 w-75 hover:bg-indigo-900 hover:text-gray-100 dark:hover:bg-green-900 dark:hover:text-gray-200"
                         type="button" onClick={handleAddInversion}

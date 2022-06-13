@@ -110,12 +110,12 @@ export const Prices = () => {
                 <FormattedMessage id="prices.back" defaultMessage="Login Ref Button" />
             </Link>
 
-            <div className='p-4 rounded-2xl bg-indigo-900 dark:bg-gray-800 mt-2'>
+            <div className='p-4 rounded-2xl bg-indigo-900 dark:bg-gray-800 mt-4'>
 
                 <div className='row flex justify-center'>
 
-                    <div className='col-4'>
-                        <div className="shadow-lg rounded-2xl w-100 bg-blue-600 dark:bg-gray-900 p-4">
+                    <div className='col-4 col-lg-4 col-md-6'>
+                        <div className="shadow-md rounded-2xl w-100 bg-blue-600 dark:bg-gray-900 p-4">
 
                             <p className="text-white text-xl">
                                 <FormattedMessage id="prices.licence" defaultMessage="Licence :" />
@@ -155,12 +155,12 @@ export const Prices = () => {
                         </div>
                     </div>
 
-                    <div className='col-3 ms-5 me-5'>
-                        <div className="shadow-lg rounded-2xl w-100 bg-blue-600 dark:bg-gray-900 p-4">
+                    <div className='col-3 col-lg-3 col-md-6 ms-lg-3 ms-lg-3'>
+                        <div className="shadow-sm rounded-2xl w-100 bg-blue-600 dark:bg-gray-900 p-4">
 
                             <button
                                 type="button"
-                                className="w-full px-3 py-3 text-sm shadow rounded-lg text-gray-900 bg-blue-400 hover:text-gray-300 hover:bg-blue-900 dark:text-indigo-300 dark:bg-gray-700 dark:hover:text-gray-300 dark:hover:bg-indigo-600"
+                                className="w-full px-3 py-3 text-sm  rounded-lg text-gray-900 bg-blue-400 hover:text-gray-300 hover:bg-blue-900 dark:text-indigo-300 dark:bg-gray-700 dark:hover:text-gray-300 dark:hover:bg-indigo-600"
                                 onClick={() => { setTypePlan('PA'); handleChangePlan(); setPlanSelected(true) }}
                             >
                                 <FormattedMessage id="prices.1.button" defaultMessage="Licence Button 1" />
@@ -168,7 +168,7 @@ export const Prices = () => {
 
                             <button
                                 type="button"
-                                className="w-full mt-5 px-3 py-3 text-sm shadow rounded-lg text-gray-900 bg-blue-400 hover:text-gray-300 hover:bg-teal-600 dark:text-indigo-300 dark:bg-gray-700 dark:hover:text-teal-300 dark:hover:bg-indigo-600"
+                                className="w-full mt-5 px-3 py-3 text-sm  rounded-lg text-gray-900 bg-blue-400 hover:text-gray-300 hover:bg-teal-600 dark:text-indigo-300 dark:bg-gray-700 dark:hover:text-teal-300 dark:hover:bg-indigo-600"
                                 onClick={() => { setTypePlan('PV'); setPlanSelected(true) }}
                             >
                                 <FormattedMessage id="prices.2.button" defaultMessage="Licence Btn 2" />
@@ -186,9 +186,9 @@ export const Prices = () => {
                                     (typePlan === 'PA')
                                         ?
                                         (
-                                            <div className='col-4'>
+                                            <div className='col-4 col-lg-4 col-md-12 md:mt-5 lg:mt-0'>
 
-                                                <div className="shadow-lg rounded-2xl w-100 bg-blue-600 dark:bg-gray-900 p-4 text-gray-100">
+                                                <div className="shadow-sm rounded-2xl w-100 bg-blue-600 dark:bg-gray-900 p-4 text-gray-100">
 
                                                     <p className='text-2xl text-center'>
                                                         <FormattedMessage id="prices.selection.title.1" defaultMessage="Plan Tittle" />
@@ -230,7 +230,7 @@ export const Prices = () => {
                                                     <div className='d-flex justify-center mt-4'>
                                                         <button
                                                             type="button"
-                                                            className="px-4 py-3 text-md shadow rounded-lg text-gray-900 bg-blue-400 hover:text-gray-300 hover:bg-blue-900 dark:text-gray-100 dark:bg-gray-700 dark:hover:text-gray-200 dark:hover:bg-violet-500"
+                                                            className="px-4 py-3 text-md  rounded-lg text-gray-900 bg-blue-400 hover:text-gray-300 hover:bg-blue-900 dark:text-gray-100 dark:bg-gray-700 dark:hover:text-gray-200 dark:hover:bg-violet-500"
                                                             onClick={handleEnviarPeticion}
                                                         >
                                                             <FormattedMessage id="prices.selection.info.button" defaultMessage="Licence Instructions" />
@@ -243,9 +243,9 @@ export const Prices = () => {
                                         )
                                         :
                                         (
-                                            <div className='col-4'>
+                                            <div className='col-4 col-lg-4 col-md-12 md:mt-5 lg:mt-0'>
 
-                                                <div className="shadow-lg rounded-2xl w-100 bg-blue-600 dark:bg-gray-900 p-4 text-gray-100">
+                                                <div className="shadow-sm rounded-2xl w-100 bg-blue-600 dark:bg-gray-900 p-4 text-gray-100">
 
                                                     <p className='text-2xl text-center'>
                                                         <FormattedMessage id="prices.selection.title.2" defaultMessage="Plan Tittle" />
@@ -275,7 +275,7 @@ export const Prices = () => {
                                                     <div className='d-flex justify-center mt-4'>
                                                         <button
                                                             type="button"
-                                                            className="px-4 py-3 text-md shadow rounded-lg text-gray-900 bg-blue-400 hover:text-gray-300 hover:bg-blue-900 dark:text-gray-100 dark:bg-gray-700 dark:hover:text-gray-100 dark:hover:bg-gray-900"
+                                                            className="px-4 py-3 text-md  rounded-lg text-gray-900 bg-blue-400 hover:text-gray-300 hover:bg-blue-900 dark:text-gray-100 dark:bg-gray-700 dark:hover:text-gray-100 dark:hover:bg-gray-900"
                                                             onClick={handleEnviarPeticion}
                                                         >
                                                             <FormattedMessage id="prices.selection.info.button" defaultMessage="Licence Instructions" />

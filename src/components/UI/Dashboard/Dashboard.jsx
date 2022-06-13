@@ -48,7 +48,7 @@ export const Dashboard = () => {
 
                     <div className='col-6 col-md-12 col-lg-6 mt-3 ms-md-4 ms-lg-0'>
 
-                        <div className='text-white p-1 bg-blue-800 dark:bg-gray-800 ms-md-2 ms-lg-0 me-md-5 me-lg-0' style={{ borderRadius: '10px' }}>
+                        <div className='text-white p-1 bg-blue-800 dark:bg-gray-800 ms-md-2 ms-lg-0 me-md-5 me-lg-0 rounded-xl' >
 
                             {/* TITULOS */}
 

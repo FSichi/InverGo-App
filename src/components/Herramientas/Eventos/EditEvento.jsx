@@ -194,16 +194,16 @@ export const EditEvento = ({ evento, type, horario, uid }) => {
 
                     {/* BOTON GUARDAR */}
 
-                    <div className='mt-2 flex justify-center'>
+                    <div className='mt-4 flex justify-center'>
                         <button
-                            className="p-3 rounded-lg w-75 bg-indigo-900 dark:bg-gray-900 dark:text-teal-300 hover:bg-teal-400 hover:text-gray-900 dark:hover:bg-green-900 dark:hover:text-gray-200"
+                            className="p-3 rounded-lg w-100 md:mr-0 md:ml-0 lg:mr-24 lg:ml-24 bg-indigo-900 dark:bg-gray-900 dark:text-teal-300 hover:bg-teal-400 hover:text-gray-900 dark:hover:bg-green-900 dark:hover:text-gray-200"
                             type="submit"
                         >
-                            <div className="ml-4 flex justify-between">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 me-3 col-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <div className="flex justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 me-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
                                 </svg>
-                                <p className=" font-medium text-xl col-10">
+                                <p className=" font-medium text-xl">
                                     <FormattedMessage id="con.screen.actions.Ev.add.b.4" defaultMessage="Save" />
                                 </p>
                             </div>

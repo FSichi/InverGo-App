@@ -43,7 +43,7 @@ export const EstructurasScreen = () => {
         <div className='container est text-gray-100'>
 
             <div className='row d-flex justify-content-center'>
-                <div className='col-5'>
+                <div className='col-5 col-lg-5 col-md-8'>
                     <div className='bg-indigo-600 dark:bg-gray-800 rounded-2xl p-3'>
                         <div className='row flex justify-between'>
                             <div className='col-8 text-2xl mt-2'>
@@ -58,9 +58,9 @@ export const EstructurasScreen = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-3 mt-2'>
+                <div className='col-3 col-lg-2 col-md-3 mt-2 md:ml-10 md:mr-0 '> {/* lg:ml-0 lg:mr-0 */}
                     <button
-                        className="p-3 rounded-lg w-50 bg-blue-400 text-gray-900 hover:bg-blue-900 hover:text-gray-200 hover:border-2 hover:border-teal-300 dark:bg-indigo-900 dark:text-gray-200 dark:hover:bg-gray-900 dark:hover:border-2 dark:hover:border-indigo-600"
+                        className="p-3 rounded-lg w-100 bg-blue-400 text-gray-900 hover:bg-blue-900 hover:text-gray-200 hover:border-2 hover:border-teal-300 dark:bg-indigo-900 dark:text-gray-200 dark:hover:bg-gray-900 dark:hover:border-2 dark:hover:border-indigo-600"
                         onClick={handleGenerar}
                     >
                         <p className="font-medium text-xl">

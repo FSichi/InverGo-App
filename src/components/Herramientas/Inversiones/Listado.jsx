@@ -82,7 +82,10 @@ export const Listado = ({ inversiones, name }) => {
                                 </div>
                             </div>
 
-                            <ViewInversion inversion={inversion} />
+                            <div className='col-12'>
+                                <ViewInversion inversion={inversion} />
+                            </div>
+
                         </div>
                     )
                     :
