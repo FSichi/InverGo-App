@@ -28,9 +28,9 @@ body::-webkit-scrollbar-thumb {
   /* creates padding around scroll thumb */
 }
 
-/* .app {
+.app {
   min-height: 95.8vh
-} */
+}
 
 footer {
   bottom: 0;
@@ -100,9 +100,9 @@ footer {
 
 @media screen and (min-width: 1900px) {
 
-  /*   .app {
+  .app {
     min-height: 97.4vh;
-  } */
+  }
 
   .cont {
     margin-top: 70px;
@@ -128,8 +128,8 @@ footer {
 
 @media screen and (min-height: 1080px) {
 
-  /*   .app {
+  .app {
     min-height: 98.67vh;
-  } */
+  }
 
 }

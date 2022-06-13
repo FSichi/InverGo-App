@@ -13,7 +13,7 @@ import { langContext } from '../../../context/langContext'
 import es from './img/spain.png';
 import en from './img/united-kingdom.png';
 import { FormattedMessage } from 'react-intl'
-import { contactosLogsEng, contactosLogsEsp, herramientasLogEng, herramientasLogEsp, perfilLogsEng, perfilLogsEsp, configLogsEng, configLogsEsp } from './Logs'
+import { contactosLogsEng, contactosLogsEsp, herramientasLogEng, herramientasLogEsp, perfilLogsEng, perfilLogsEsp, configLogsEng, configLogsEsp, menuHamburguesaLogsEng, menuHamburguesaLogsEsp } from './Logs'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -41,6 +41,7 @@ export default function NavBar() {
     const [herramientasLog, setHerramientasLog] = useState([]);
     const [perfilLogs, setPerfilLog] = useState([]);
     const [configLogs, setConfigLog] = useState([]);
+    const [menuHamburguesaLogs, setMenuHamburguesaLogs] = useState([]);
 
     const lang = localStorage.getItem('lang');
 
@@ -49,12 +50,14 @@ export default function NavBar() {
         setHerramientasLog(herramientasLogEsp);
         setPerfilLog(perfilLogsEsp);
         setConfigLog(configLogsEsp);
+        setMenuHamburguesaLogs(menuHamburguesaLogsEsp);
         setState(true);
     } else if (lang === 'en-US' && !state) {
         setContactosLog(contactosLogsEng);
         setHerramientasLog(herramientasLogEng);
         setPerfilLog(perfilLogsEng);
         setConfigLog(configLogsEng);
+        setMenuHamburguesaLogs(menuHamburguesaLogsEng);
         setState(true);
     }
 
@@ -393,119 +396,145 @@ export default function NavBar() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
             >
-                <Popover.Panel focus className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-                    <div
-                        className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50 bg-white"
-                        style={{ backgroundColor: '#000a12' }}
-                    >
-                        <div className="pt-5 pb-6 px-5">
-                            <div className="flex items-center justify-between">
-                                <div>
-                                    <img
-                                        className="h-8 w-auto"
-                                        src={`../../assets/logo2.svg`}
-                                        style={{ width: '50px', height: '50px' }}
-                                        alt="Workflow"
-                                    />
-                                </div>
+                <Popover.Panel focus className="absolute top-1 inset-x-0 p-2 transition transform origin-top-right md:hidden" style={{ zIndex: '1' }}>
+                    {({ open, close }) => (
 
-                                <span className='fs-5 text-black' style={{ marginTop: '12px' }}>InverGo</span>
+                        <div className="rounded-lg divide-y-2 divide-gray-50 bg-indigo-300 dark:bg-black" >
+                            <div className="pt-4 pb-6 px-4">
 
-                                <div className="-mr-2">
-                                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                                        <span className="sr-only">Close menu</span>
-                                        <XIcon className="h-6 w-6" aria-hidden="true" />
-                                    </Popover.Button>
-                                </div>
-                            </div>
-                            <div className="mt-10">
-                                <nav className="grid gap-y-8">
+                                {/* CERRAR MENU Y LOGO */}
 
-                                    <div className='row'>
-                                        <div className='col-6'>
-                                            <a href='./' className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" >
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
-                                                </svg>
-                                                <span className="ml-3 text-base font-medium text-gray-900">Agregar Contacto</span>
-                                            </a>
-                                        </div>
-                                        <div className='col-6'>
-                                            <a href='./' className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" >
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
-                                                </svg>
-                                                <span className="ml-3 text-base font-medium text-gray-900">Agregar Inversor</span>
-                                            </a>
-                                        </div>
-                                        <div className='col-12 mt-7'>
-                                            <a href='./' className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" >
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                                                </svg>
-                                                <span className="ml-3 text-base font-medium text-gray-900">Listado de Contactos / Inversores</span>
-                                            </a>
-                                        </div>
+                                <div className="flex items-center justify-between">
+                                    <div>
+                                        <img className="h-8 w-auto" src={`../../assets/logo2.svg`} style={{ width: '50px', height: '50px' }} alt="Workflow" />
                                     </div>
-                                </nav>
-                            </div>
-                        </div>
-                        <div className="py-6 px-5 space-y-6">
-                            <div className="">
 
-                                <div className='row'>
-                                    <div className='col-6'>
-                                        <a href='./' className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" >
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
-                                            </svg>
-                                            <span className="ml-3 text-base font-medium text-gray-900">Estructuras</span>
-                                        </a>
-                                    </div>
-                                    <div className='col-6'>
-                                        <a href='./' className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" >
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
-                                            </svg>
-                                            <span className="ml-3 text-base font-medium text-gray-900">Mis Inversiones</span>
-                                        </a>
-                                    </div>
-                                    <div className='col-6 mt-7'>
-                                        <a href='./' className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" >
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                                            </svg>
-                                            <span className="ml-3 text-base font-medium text-gray-900">Eventos</span>
-                                        </a>
-                                    </div>
-                                    <div className='col-6 mt-7'>
-                                        <a href='./' className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" >
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                                            </svg>
-                                            <span className="ml-3 text-base font-medium text-gray-900">Presentacion</span>
-                                        </a>
+                                    <span className='fs-5 text-gray-900 dark:text-gray-200' style={{ marginTop: '12px' }}>InverGo</span>
+
+                                    <div className="-mr-2">
+                                        <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                            <span className="sr-only">Close menu</span>
+                                            <XIcon className="h-6 w-6" aria-hidden="true" />
+                                        </Popover.Button>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="py-6 px-5 space-y-6">
-                            <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                                {perfilLogs.map((item) => (
-                                    <a
-                                        key={item.name}
-                                        href={item.href}
-                                        className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                                    >
-                                        <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" />
-                                        <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
 
-                                    </a>
-                                ))}
+                                {/* RUTAS */}
+
+                                <div className="mt-10">
+                                    <nav className="grid gap-y-7">
+                                        {menuHamburguesaLogs.map((item) => (
+                                            <Link
+                                                key={item.name} to={item.href} onClick={() => close()}
+                                                className="-m-3 p-3 flex rounded-lg hover:bg-indigo-200 dark:hover:bg-gray-900"
+                                            >
+                                                <item.icon className="flex-shrink-0 h-6 w-6 text-gray-900 dark:text-indigo-600 me-3" />
+
+                                                <div className="ml-2">
+                                                    <p className="text-base font-medium text-gray-900 dark:text-gray-200">{item.name}</p>
+                                                </div>
+                                            </Link>
+                                        ))}
+                                    </nav>
+                                </div>
+
+                                <div className='mt-3 mb-3'>
+                                    <hr />
+                                </div>
+
+                                {/* CONFIGURACION */}
+
+                                <div className="mt-6">
+
+                                    {/* LOGOUT */}
+
+                                    <div className='flex justify-center'>
+                                        <button
+                                            className="-m-3 p-3 rounded-xl hover:bg-indigo-200 dark:hover:bg-gray-900 flex"
+                                            onClick={handleLogOut}
+                                        >
+                                            <LogoutIcon className="flex-shrink-0 h-6 w-6 text-gray-900 dark:text-red-600 me-3" />
+
+                                            <div className="ml-2">
+                                                <p className="text-base font-medium text-gray-900 dark:text-gray-200"><FormattedMessage id="navbar.logout" defaultMessage="LogOut" /></p>
+                                            </div>
+
+                                        </button>
+                                    </div>
+
+
+
+                                    <div className="px-5 py-3 bg-indigo-400 dark:bg-slate-800 rounded-xl mt-4">
+                                        <div>
+                                            <h3 className="text-sm text-center tracking-wide font-semibold dark:font-medium text-gray-900 dark:text-white uppercase"><FormattedMessage id="navbar.settings" defaultMessage="Settings" /></h3>
+
+                                            {/* IDIOMA */}
+
+                                            <div className='row mt-4'>
+
+                                                {/*                                                 <div className='col-2 me-4'>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+                                                    </svg>
+                                                </div> */}
+
+                                                <div className='col-6 flex justify-center'>
+                                                    <button
+                                                        className="-m-3 p-2 flex items-start rounded-lg text-teal-400 hover:bg-gray-900 hover:text-white"
+                                                        onClick={() => { idioma.establecerLenguaje('es-MX'); window.location.reload(); }}
+                                                    >
+                                                        <img src={es} alt="" style={{ width: '40px', height: '40px' }} className='ms-2 me-2' />
+                                                    </button>
+                                                </div>
+                                                <div className='col-6 flex justify-center'>
+                                                    <button
+                                                        className="-m-3 p-2 flex items-start rounded-lg text-teal-400 hover:bg-gray-900 hover:text-white"
+                                                        onClick={() => { idioma.establecerLenguaje('en-US'); window.location.reload(); }}
+                                                    >
+                                                        <img src={en} alt="" style={{ width: '40px', height: '40px' }} className='ms-2 me-2' />
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                            {/* MODO DE COLOR - TEMA */}
+
+                                            <div className='row mt-5'>
+                                                <div className='col-6 mt-2 flex justify-center'>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                                                    </svg>
+                                                </div>
+                                                <div className='col-6 mt-2 flex justify-center'>
+                                                    <Switch />
+                                                </div>
+                                            </div>
+
+                                            <div className='mt-3 mb-2'>
+                                                <hr />
+                                            </div>
+
+                                            <ul className="mt-4 text-center">
+                                                {configLogs.map((item) => (
+                                                    <Link
+                                                        key={item.id} to={item.href} onClick={() => close()}
+                                                        className="truncate"
+                                                    >
+                                                        <p className="text-lg font-medium text-gray-900 dark:text-gray-500 hover:text-gray-200 dark:hover:text-gray-300 my-2 ">{item.name}</p>
+                                                    </Link>
+                                                ))}
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
 
                             </div>
+
                         </div>
-                    </div>
+                    )}
+
                 </Popover.Panel>
             </Transition>
 

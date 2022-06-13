@@ -90,6 +90,72 @@ export const perfilLogsEsp = [
     }
 ]
 
+export const menuHamburguesaLogsEsp = [
+    {
+        name: 'Agregar Contacto / Inversor',
+        href: '/con/add',
+        icon: UserAddIcon,
+    },
+    {
+        name: 'Listado de Contactos / Inversores',
+        href: '/con/list',
+        icon: CollectionIcon,
+    },
+    {
+        name: 'Estructuras',
+        href: '/tools/etr',
+        icon: SupportIcon,
+    },
+    {
+        name: 'Mis Inversiones',
+        href: '/tools/inv',
+        icon: BookmarkAltIcon,
+    },
+    {
+        name: 'Eventos',
+        href: '/tools/evt',
+        icon: CalendarIcon,
+    },
+    {
+        name: 'Perfil',
+        href: '/perfil',
+        icon: SupportIcon,
+    }
+]
+
+export const menuHamburguesaLogsEng = [
+    {
+        name: 'Add Contact / Investor',
+        href: '/con/add',
+        icon: UserAddIcon,
+    },
+    {
+        name: 'List of Contacts / Investors',
+        href: '/con/list',
+        icon: CollectionIcon,
+    },
+    {
+        name: 'Structures',
+        href: '/tools/etr',
+        icon: SupportIcon,
+    },
+    {
+        name: 'Investments',
+        href: '/tools/inv',
+        icon: BookmarkAltIcon,
+    },
+    {
+        name: 'Events',
+        href: '/tools/evt',
+        icon: CalendarIcon,
+    },
+    {
+        name: 'Profile',
+        href: '/perfil',
+        icon: SupportIcon,
+    }
+]
+
 export const configLogsEng = [
     { id: 1, name: 'Terms and Conditions', href: '/terms' },
     { id: 2, name: 'About', href: '/about' },
