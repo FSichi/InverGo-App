@@ -73,8 +73,8 @@ export default function NavBar() {
 
     return (
         <Popover
-            className="relative text-gray-900 bg-indigo-500 dark:text-white dark:bg-gray-800 ml-3 mr-3"
-            style={{ borderRadius: '20px', padding: '13px 0px' }}
+            className="relative text-gray-900 bg-indigo-500 dark:text-white dark:bg-gray-800 lg:ml-3 lg:mr-3 md:ml-2 md:mr-2 rounded-xl"
+            style={{ padding: '11px 0px' }}
         >
             {/* MENU NORMAL */}
 

@@ -17,6 +17,8 @@ export const TablaContactos = ({ contactos }) => {
         setPage(0);
     };
 
+    /* className='xs:invisible sm:invisible md:visible lg:visible' */
+
     return (
         <TableContainer className='rounded-xl' style={{ maxWidth: 2000 }}>
 

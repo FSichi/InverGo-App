@@ -20,7 +20,7 @@ export const Info = () => {
                     >
 
                         <Popover.Panel
-                            className="absolute z-10 transform w-max max-w-md lg:-translate-x-2/3 lg:-left-50 md:-translate-y-64 border border-primary"
+                            className="absolute z-10 transform w-max max-w-md lg:-translate-x-56 md:-translate-x-52 -translate-x-40 lg:-left-50 md:-translate-y-72 lg:-translate-y-64 border border-primary"
                             style={{ backgroundColor: '#000a12', borderRadius: '10px' }}
                             onClick={() => { close(); }}
                         >

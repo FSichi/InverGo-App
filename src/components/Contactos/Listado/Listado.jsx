@@ -28,7 +28,7 @@ export const Listado = () => {
 
                 {/* PARTE IZQUIERDA */}
 
-                <div className='col-3 col-md-12 col-lg-3'>
+                <div className='col-12 col-md-12 col-lg-3'>
 
                     {/* BOTONES */}
 
@@ -83,7 +83,7 @@ export const Listado = () => {
 
                 {/* PARTE DERECHA */}
 
-                <div className='col-9 col-md-12 col-lg-9 mt-md-4 mt-lg-0'>
+                <div className='col-12 col-md-12 col-lg-9 mt-md-4 mt-lg-0 mt-4'>
                     <div className='bg-gray-800 rounded-2xl'>
                         {
                             (changeContact)

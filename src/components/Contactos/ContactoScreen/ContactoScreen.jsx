@@ -24,7 +24,7 @@ export const ContactoScreen = ({ history }) => {
 
             <div className='row mt-4 mb-2'>
 
-                <div className='col-3 col-md-12 col-lg-3' >
+                <div className='col-12 col-md-12 col-lg-3' >
 
                     {/* NOMBRE Y TIPO CONTACTO */}
 
@@ -33,7 +33,7 @@ export const ContactoScreen = ({ history }) => {
                         {/* IMAGEN Y NOMBRE - NACIONALIDAD */}
 
                         <div className='row'>
-                            <div className='col-4 col-md-12 col-lg-12 flex justify-center'>
+                            <div className='col-12 col-md-12 col-lg-12 flex justify-center'>
                                 {
                                     (contacto.nacionalidad === 'Estados Unidos')
                                         ? <img className="rounded-lg" width="80px" src={`../../assets/flags/US.svg`} alt='Logo Perfil' />
@@ -88,7 +88,7 @@ export const ContactoScreen = ({ history }) => {
 
                 </div>
 
-                <div className='col-8 col-md-12 col-lg-9 mt-md-4 mt-lg-0'>
+                <div className='col-12 col-md-12 col-lg-9 mt-md-4 mt-lg-0'>
                     {
                         (changeSeleccion)
                             ? <PerfilScreen contacto={contacto} eventos={eventosContacto} inversiones={inversionesContacto} history={history} />

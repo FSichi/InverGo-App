@@ -40,16 +40,16 @@ export const EstructurasScreen = () => {
     }
 
     return (
-        <div className='container est text-gray-100'>
+        <div className='container-fluid container-lg  est text-gray-100'>  {/* REVISAR EL CONTAINER */}
 
             <div className='row d-flex justify-content-center'>
-                <div className='col-5 col-lg-5 col-md-8'>
+                <div className='col-12 col-lg-5 col-md-8'>
                     <div className='bg-indigo-600 dark:bg-gray-800 rounded-2xl p-3'>
                         <div className='row flex justify-between'>
-                            <div className='col-8 text-2xl mt-2'>
+                            <div className='col-6 col-lg-8 col-md-8 text-xl md:text-2xl lg:text-xl mt-2'>
                                 <FormattedMessage id="tools.structures.select" defaultMessage="Select" />
                             </div>
-                            <div className='col-4'>
+                            <div className='col-6 col-lg-4 col-md-4'>
                                 <Select
                                     className='fw-bold text-center text-white text-lg' styles={customStylesTareas} isSearchable={false}
                                     options={OptionEstructuras} defaultValue={optionEstructura} onChange={setOptionEstructura}
@@ -58,7 +58,7 @@ export const EstructurasScreen = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-3 col-lg-2 col-md-3 mt-2 md:ml-10 md:mr-0 '> {/* lg:ml-0 lg:mr-0 */}
+                <div className='col-6 col-lg-2 col-md-3 mt-4 mt-lg-2 mt-md-2 md:ml-10 md:mr-0 '> {/* lg:ml-0 lg:mr-0 */}
                     <button
                         className="p-3 rounded-lg w-100 bg-blue-400 text-gray-900 hover:bg-blue-900 hover:text-gray-200 hover:border-2 hover:border-teal-300 dark:bg-indigo-900 dark:text-gray-200 dark:hover:bg-gray-900 dark:hover:border-2 dark:hover:border-indigo-600"
                         onClick={handleGenerar}

@@ -33,7 +33,7 @@ export const AccionScreen = ({ contacto, eventos, inversiones }) => {
 
             {/* MENU DE ACCIONES - ELECCIONES */}
 
-            <div className='col-12 bg-indigo-600 dark:bg-gray-800 p-3 rounded-2xl text-gray-100'>
+            <div className='col-12 mt-lg-0 mt-md-0 mt-3 bg-indigo-600 dark:bg-gray-800 p-3 rounded-2xl text-gray-100'>
 
                 <div className='row flex justify-between'>
 

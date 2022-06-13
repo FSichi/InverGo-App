@@ -10,10 +10,10 @@ export const Informacion = ({ estructura }) => {
 
     return (
         <div className='row'>
-            <CardInfo className={'col-3 col-lg-3 col-md-6 lg:mt-0'} idMsg={'tools.structures.info.1'} defMsg={"Info 1"} styleInfo={'text-blue-700 dark:text-cyan-300'} info={capitalEstructura} />
-            <CardInfo className={'col-3 col-lg-3 col-md-6 lg:mt-0'} idMsg={'tools.structures.info.2'} defMsg={"Info 2"} styleInfo={'text-gray-900 dark:text-green-300'} info={costoCuentas} />
-            <CardInfo className={'col-3 col-lg-3 col-md-6 lg:mt-0 md:mt-5'} idMsg={'tools.structures.info.3'} defMsg={"Info 3"} styleInfo={'text-indigo-800 dark:text-indigo-300'} info={gananciaLiquida} />
-            <CardInfo className={'col-3 col-lg-3 col-md-6 lg:mt-0 md:mt-5'} idMsg={'tools.structures.info.4'} defMsg={"Info 4"} styleInfo={'text-indigo-800 dark:text-indigo-300'} info={gananciaPasiva} />
+            <CardInfo className={'col-12 col-lg-3 col-md-6 lg:mt-0 md:mt-0 mt-0'} idMsg={'tools.structures.info.1'} defMsg={"Info 1"} styleInfo={'text-blue-700 dark:text-cyan-300'} info={capitalEstructura} />
+            <CardInfo className={'col-12 col-lg-3 col-md-6 lg:mt-0 md:mt-0 mt-6'} idMsg={'tools.structures.info.2'} defMsg={"Info 2"} styleInfo={'text-gray-900 dark:text-green-300'} info={costoCuentas} />
+            <CardInfo className={'col-12 col-lg-3 col-md-6 lg:mt-0 md:mt-5 mt-6'} idMsg={'tools.structures.info.3'} defMsg={"Info 3"} styleInfo={'text-indigo-800 dark:text-indigo-300'} info={gananciaLiquida} />
+            <CardInfo className={'col-12 col-lg-3 col-md-6 lg:mt-0 md:mt-5 mt-6'} idMsg={'tools.structures.info.4'} defMsg={"Info 4"} styleInfo={'text-indigo-800 dark:text-indigo-300'} info={gananciaPasiva} />
         </div>
     )
 }
