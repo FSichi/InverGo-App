@@ -6,7 +6,7 @@ export const ViewInversion = ({ inversion }) => {
 
     const barra = getPorcentajeBarraInversion(inversion);
 
-    console.log('Inversion', inversion);
+    // console.log('Inversion', inversion);
 
     return (
         <div className='row lg:mt-5 md:mt-4'>
@@ -199,7 +199,7 @@ export const ViewInversion = ({ inversion }) => {
 
                     <div className='col-12 mt-4'>
                         <div className="relative h-2 bg-gray-200 rounded w-100">
-                            <div className={`absolute top-0 h-2 left-0 rounded bg-green-500 ` + barra}> </div>
+                            <div className={`absolute top-0 h-2 left-0 rounded bg-green-500` + barra}> </div>
                         </div>
                     </div>
 
