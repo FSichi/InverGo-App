@@ -56,7 +56,7 @@ export const AddScreen = ({ history }) => {
 
             <div className='row justify-center'>
 
-                <form className='col-12 col-lg-10 col-md-12' onSubmit={handleSubmit(handleRegister)}>
+                <form className='col-12 col-lg-11 col-md-12' onSubmit={handleSubmit(handleRegister)}>
 
                     <div className='row bg-indigo-600 dark:bg-gray-800 p-4 rounded-2xl'>
 
