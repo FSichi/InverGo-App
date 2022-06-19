@@ -40,7 +40,7 @@ export const EstructurasScreen = () => {
     }
 
     return (
-        <div className='container-fluid est text-gray-100'>  {/* REVISAR EL CONTAINER - VILLERO EL LG DE UN IPAD */}
+        <div className='container-fluid container-xl est text-gray-100'>
 
             <div className='row d-flex justify-content-center'>
                 <div className='col-12 col-lg-6 col-md-8'>
@@ -70,7 +70,7 @@ export const EstructurasScreen = () => {
                 </div>
             </div>
 
-            <div className='row mr-5 ml-5'>
+            <div className='row'>
                 <div className='col-12'>
                     {
                         (visualizar)

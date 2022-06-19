@@ -237,7 +237,7 @@ export const Agregar = ({ uid }) => {
                         <h2 className=" text-xl mt-1"><FormattedMessage id="con.screen.actions.Inv.add.b.3" defaultMessage="Benefit" /></h2>
                     </div>
 
-                    <div className='col-5'>
+                    <div className='col-5 ms-4'>
                         {
                             (changeTipo)
                                 ?

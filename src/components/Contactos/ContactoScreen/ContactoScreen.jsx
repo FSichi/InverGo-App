@@ -20,9 +20,9 @@ export const ContactoScreen = ({ history }) => {
 
     return (
 
-        <div className='container list'>
+        <div className='container-fluid list'>
 
-            <div className='row mt-4 mb-2'>
+            <div className='row mt-4 mb-2 2xl:ml-32 2xl:mr-32'>
 
                 <div className='col-12 col-md-12 col-lg-3' >
 

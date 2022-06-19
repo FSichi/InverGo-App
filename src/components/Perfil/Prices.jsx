@@ -29,7 +29,7 @@ export const Prices = () => {
         let confirmButtonText = '';
         let cancelButtonText = '';
 
-        if (fichaUser.tipoLicencia === 'PV') {
+        if (fichaUser.licencia.tipo === 'PV') {
 
             if (localStorage.getItem('lang') === 'es-MX') {
                 title = 'No puedes enviar la Solicitud';
@@ -80,7 +80,7 @@ export const Prices = () => {
                     estado: false,
                 }
 
-                axios.post('http://localhost:4000/peticiones', data).then(res => {
+                axios.post('https://backend-invergo-production.up.railway.app/peticiones', data).then(res => {
 
                     var title = '';
                     var text = '';
@@ -104,7 +104,7 @@ export const Prices = () => {
     }
 
     return (
-        <div className='container list text-gray-100'>
+        <div className='container-fluid container-xl list text-gray-100'>
 
             <Link className="fw-bold text-lg ms-2 text-indigo-600 hover:text-teal-600 dark:text-indigo-400 dark:hover:text-teal-300" to='/perfil' >
                 <FormattedMessage id="prices.back" defaultMessage="Login Ref Button" />
@@ -275,7 +275,7 @@ export const Prices = () => {
                                                     <div className='d-flex justify-center mt-4'>
                                                         <button
                                                             type="button"
-                                                            className="px-4 py-3 text-md  rounded-lg text-gray-900 bg-blue-400 hover:text-gray-300 hover:bg-blue-900 dark:text-gray-100 dark:bg-gray-700 dark:hover:text-gray-100 dark:hover:bg-gray-900"
+                                                            className="px-4 py-3 text-md  rounded-lg text-gray-900 bg-blue-400 hover:text-gray-300 hover:bg-blue-900 dark:text-gray-100 dark:bg-gray-700 dark:hover:text-gray-100 dark:hover:bg-violet-500"
                                                             onClick={handleEnviarPeticion}
                                                         >
                                                             <FormattedMessage id="prices.selection.info.button" defaultMessage="Licence Instructions" />

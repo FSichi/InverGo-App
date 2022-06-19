@@ -244,7 +244,7 @@ export const Agregar = ({ contacto }) => {
                         <h2 className="text-center text-xl"><FormattedMessage id="con.screen.actions.Inv.add.b.3" defaultMessage="Benefit" /></h2>
                     </div>
 
-                    <div className='col-6'>
+                    <div className='col-7'>
                         {
                             (changeTipo)
                                 ?

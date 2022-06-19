@@ -107,7 +107,7 @@ export const PerfilScreen = () => {
 
     return (
 
-        <div className='container list'>
+        <div className='container-fluid container-xl list'>
             <div className='row flex justify-center'>
 
                 <div className='col-3 col-lg-3 col-md-12 mt-1'>

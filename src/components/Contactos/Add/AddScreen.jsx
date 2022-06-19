@@ -52,11 +52,11 @@ export const AddScreen = ({ history }) => {
     }
 
     return (
-        <div className='container text-gray-100 cont'>
+        <div className='container-fluid text-gray-100 cont'>
 
-            <div className='row justify-center'>
+            <div className='row justify-center lg:ml-2 lg:mr-2 2xl:mr-56 2xl:ml-56'>
 
-                <form className='col-12 col-lg-11 col-md-12' onSubmit={handleSubmit(handleRegister)}>
+                <form className='col-12 col-lg-12 col-md-12' onSubmit={handleSubmit(handleRegister)}>
 
                     <div className='row bg-indigo-600 dark:bg-gray-800 p-4 rounded-2xl'>
 
