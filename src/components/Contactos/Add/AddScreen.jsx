@@ -20,7 +20,7 @@ export const AddScreen = ({ history }) => {
 
     const handleRegister = (data) => {
 
-        if (data.name === "" || data.email === "" || data.phone === "") {
+        if (data.name === "" || data.phone === "") {
 
             let mje = '';
 
@@ -30,6 +30,7 @@ export const AddScreen = ({ history }) => {
             return;
         }
 
+        let email = (data.email === '') ? '-' : data.email;
         let type = '';
         let country = localStorage.getItem("country");
 
@@ -39,7 +40,7 @@ export const AddScreen = ({ history }) => {
 
         var contacto = {
             nombre: data.name,
-            correo: data.email,
+            correo: email,
             nacionalidad: country,
             telefono: data.phone,
             tipoContacto: type,

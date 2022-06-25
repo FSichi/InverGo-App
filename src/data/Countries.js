@@ -37,48 +37,54 @@ export const countriesEsp = [
     },
     {
         id: 7,
+        name: 'Guatemala',
+        value: 'Guatemala',
+        avatar: '../../assets/flags/Guatemala.svg'
+    },
+    {
+        id: 8,
         name: 'España',
         value: 'España',
         avatar: '../../assets/flags/España.svg'
     },
     {
-        id: 8,
+        id: 9,
         name: 'Italia',
         value: 'Italia',
         avatar: '../../assets/flags/Italia.svg'
     },
     {
-        id: 9,
+        id: 10,
         name: 'Mexico',
         value: 'Mexico',
         avatar: '../../assets/flags/Mexico.svg'
     },
     {
-        id: 10,
+        id: 11,
         name: 'Peru',
         value: 'Peru',
         avatar: '../../assets/flags/Peru.svg'
     },
     {
-        id: 11,
+        id: 12,
         name: 'Paraguay',
         value: 'Paraguay',
         avatar: '../../assets/flags/Paraguay.svg'
     },
     {
-        id: 12,
+        id: 13,
         name: 'Estados Unidos',
         value: 'Estados Unidos',
         avatar: '../../assets/flags/US.svg'
     },
     {
-        id: 13,
+        id: 14,
         name: 'Uruguay',
         value: 'Uruguay',
         avatar: '../../assets/flags/Uruguay.svg'
     },
     {
-        id: 14,
+        id: 15,
         name: 'Venezuela',
         value: 'Venezuela',
         avatar: '../../assets/flags/Venezuela.svg'
@@ -125,48 +131,54 @@ export const countriesEng = [
     },
     {
         id: 7,
+        name: 'Guatemala',
+        value: 'Guatemala',
+        avatar: '../../assets/flags/Guatemala.svg'
+    },
+    {
+        id: 8,
         name: 'Spain',
         value: 'España',
         avatar: '../../assets/flags/España.svg'
     },
     {
-        id: 8,
+        id: 9,
         name: 'Italy',
         value: 'Italia',
         avatar: '../../assets/flags/Italia.svg'
     },
     {
-        id: 9,
+        id: 10,
         name: 'Mexico',
         value: 'Mexico',
         avatar: '../../assets/flags/Mexico.svg'
     },
     {
-        id: 10,
+        id: 11,
         name: 'Peru',
         value: 'Peru',
         avatar: '../../assets/flags/Peru.svg'
     },
     {
-        id: 11,
+        id: 12,
         name: 'Paraguay',
         value: 'Paraguay',
         avatar: '../../assets/flags/Paraguay.svg'
     },
     {
-        id: 12,
+        id: 13,
         name: 'United States',
         value: 'Estados Unidos',
         avatar: '../../assets/flags/US.svg'
     },
     {
-        id: 13,
+        id: 14,
         name: 'Uruguay',
         value: 'Uruguay',
         avatar: '../../assets/flags/Uruguay.svg'
     },
     {
-        id: 14,
+        id: 15,
         name: 'Venezuela',
         value: 'Venezuela',
         avatar: '../../assets/flags/Venezuela.svg'
